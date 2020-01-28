@@ -1,0 +1,160 @@
+
+
+
+    a {
+        color: #0ab0bf;
+    }
+
+    a:hover, a:focus {
+        color: #07848f;
+    }
+
+    #lp-left-nav .lesson {
+        color: #47c3cf;
+    }
+
+    #lp-left-nav .lesson:hover,
+    #lp-left-nav .lesson:active {
+        background: #034a50;
+        color: white;
+    }
+
+    #lp-left-nav .lesson-active,
+    #lp-left-nav .current-item {
+        background: #0ab0bf;
+        color: white;
+    }
+
+    #lp-left-nav .left-nav-return {
+        color: #0ab0bf;
+    }
+
+    .link-color {
+        color: #0ab0bf;
+    }
+
+    .theme-color {
+        color: #0ab0bf;
+    }
+
+    .theme-color-bg {
+        background-color: #0ab0bf;
+    }
+
+    .theme-color-border-hover:hover, .theme-color-border-hover:focus {
+        border-color: #0ab0bf;
+    }
+
+    a.theme-no-hover{
+        color: #0ab0bf;
+    }
+
+    a.theme-no-hover:hover, a.theme-no-hover:focus {
+        color: #0ab0bf;
+    }
+
+    .tooltip {
+        background: #05636b;
+        border: 1px solid #034a50;
+    }
+
+    .tooltip.tip-top .nub {
+        border-color: transparent transparent #05636b transparent;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .tooltip.tip-top .nub {
+            border-color: #05636b transparent transparent transparent;
+        }
+    }
+
+    #curriculum-list-2 ul.scorm-item-list {
+        border-color: #0ab0bf;
+    }
+
+    .filter-option.checked .filter-name,
+    .filter-option.checked .filter-counter,
+    .filter-option:hover:not(.checked) .fa-stack .fa-circle-o,
+    .filter-option:hover:not(.checked) .filter-name,
+    .filter-option:hover:not(.checked) .filter-counter {
+        color: #0ab0bf
+    }
+
+
+
+
+
+    #header {
+        background-color: #ffffff !important;
+    }
+
+
+
+
+    #header, #header .header-link {
+        color: #ffffff;
+    }
+
+    #header .header-dash-dropdown {
+        color: #ffffff;
+    }
+
+    #header .header-dropdown-button:before {
+        border-color: #ffffff transparent transparent transparent;
+    }
+
+
+
+
+    button, .button {
+        background-color: #fa492b;
+        border-color: #bb3620;
+    }
+
+    button:hover:disabled, .button:hover:disabled,
+    button:disabled:focus, .button:disabled:focus,
+    button:focus, .button:focus,
+    button:disabled, .button:disabled,
+    button:hover, .button:hover,
+    .button.disabled, .button.disabled:focus, .button.disabled:hover {
+        background-color: #bb3620;
+        border-color: #8c2818;
+    }
+
+    .button-background {
+        background-color: #fa492b;
+    }
+
+    .button-background-shade3 {
+        background-color: #691e12;
+    }
+
+
+    .button-group li {
+        background-color: #fa492b;
+        border-right-color: #fc9887;
+    }
+    .button-group li:hover {
+        background-color: #fb7660;
+    }
+    .button-group li.active,
+    .button-group li:active {
+        background-color: #bb3620;
+    }
+
+    .button-border-color {
+        border-color: #fa492b;
+    }
+
+    a.coursebox-container .sj-course-ribbon-wrapper .sj-course-ribbon {
+        color: #691e12;
+        border-color: #fa492b;
+        background: #fcb1a5;
+    }
+
+    a.coursebox-container .sj-course-ribbon-wrapper .sj-course-ribbon-complete {
+        border-color: #fa492b;
+        background: #fa492b;
+    }
+
+
