@@ -1,0 +1,4056 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://learn.newrelic.com/series/fundamentals -->
+<html class="js htmlimports no-flash sizes no-proximity transferables adownload no-ambientlight applicationcache audio audioloop webaudio no-batteryapi no-battery-api no-lowbattery blobconstructor blob-constructor canvas canvasblending todataurljpeg todataurlpng todataurlwebp canvaswinding canvastext contenteditable no-contextmenu cookies cors customelements crypto getrandomvalues cssall cssanimations appearance backdropfilter backgroundblendmode backgroundcliptext bgpositionshorthand bgpositionxy bgrepeatround bgrepeatspace backgroundsize bgsizecover borderimage borderradius boxshadow boxsizing csscalc checked csschunit csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside no-cssgridlegacy cssgrid cubicbezierrange no-displayrunin no-display-runin displaytable display-table ellipsis cssescape cssexunit supports cssfilters flexbox flexboxlegacy no-flexboxtweener flexwrap fontface generatedcontent cssgradients hairline hsla cssinvalid lastchild cssmask mediaqueries multiplebgs no-nthchild objectfit object-fit opacity no-overflowscrolling csspointerevents csspositionsticky csspseudoanimations csstransitions csspseudotransitions cssreflections no-regions cssremunit cssresize rgba cssscrollbar scrollsnappoints shapes siblinggeneral subpixelfont target textalignlast textshadow csstransforms no-csstransformslevel2 no-csstransforms3d preserve3d userselect cssvalid cssvhunit cssvmaxunit cssvminunit cssvwunit willchange no-wrapflow customprotocolhandler customevent no-dart dataview classlist no-createelementattrs no-createelement-attrs dataset documentfragment hidden no-microdata mutationobserver passiveeventlisteners bdi datalistelem details outputelem picture progressbar meter ruby template no-time texttrackapi track unknownelements emoji es5array es5date es5function es5object strictmode es5string json es5syntax es5undefined es5 es6array es6collections no-contains generators es6math es6number es6object promises es6string devicemotion deviceorientation oninput eventlistener filereader filesystem no-capture fileinput fileinputdirectory formattribute formvalidation no-localizednumber placeholder no-requestautocomplete fullscreen gamepads geolocation hashchange hiddenscroll history no-ie8compat sandbox no-seamless srcdoc imgcrossorigin srcset inputformaction input-formaction inputformenctype input-formenctype inputformmethod no-inputformtarget no-input-formtarget inputsearchevent intl ligatures olreversed no-mathml hovermq pointermq messagechannel beacon no-lowbandwidth eventsource fetch xhrresponsetype xhrresponsetypearraybuffer xhrresponsetypeblob xhrresponsetypedocument xhrresponsetypejson xhrresponsetypetext xhr2 notification pagevisibility performance pointerevents pointerlock postmessage queryselector quotamanagement requestanimationframe raf scriptasync scriptdefer serviceworker speechrecognition speechsynthesis localstorage sessionstorage websqldatabase no-stylescoped svg svgasimg svgclippaths svgfilters svgforeignobject inlinesvg smil templatestrings textareamaxlength no-touchevents typedarrays unicode no-unicoderange bloburls urlparser urlsearchparams no-userdata vibrate video videocrossorigin videoloop videopreload no-vml no-webintents webanimations webgl peerconnection datachannel getusermedia websockets websocketsbinary no-framed sharedworkers webworkers no-xdomainrequest no-exiforientation apng webp webpalpha webpanimation webplossless no-jpeg2000 no-jpegxr webp-alpha webp-animation webp-lossless datauri blobworkers dataworkers audiopreload indexeddb csshyphens softhyphens softhyphensfind indexeddb-deletedatabase no-videoautoplay" lang="en-US" style=""><script type="text/javascript" async="" src="./New Relic Fundamentals Certification Program_files/cyym0u3i"></script><script type="text/javascript" async="" src="./New Relic Fundamentals Certification Program_files/munchkin.js"></script><script type="text/javascript" async="" src="./New Relic Fundamentals Certification Program_files/ei.js"></script><script async="" src="./New Relic Fundamentals Certification Program_files/gtm.js"></script><script async="" src="./New Relic Fundamentals Certification Program_files/analytics.js"></script><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script><script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script><!--<![endif]--><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# skilljar: http://ogp.me/ns/fb/skilljar#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+        <link rel="search" type="application/opensearchdescription+xml" href="https://learn.newrelic.com/domain/open-search" title="Skilljar">
+    
+    
+        <link rel="shortcut icon" href="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/themes/xjnyp0weakhy/favicon.1553735207.png">
+    
+    <link href="./New Relic Fundamentals Certification Program_files/css" rel="stylesheet" type="text/css">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+
+
+
+
+
+    <meta property="og:title" content="New Relic Fundamentals Certification Program">
+    <meta name="twitter:title" content="New Relic Fundamentals Certification Program">
+
+
+
+
+
+
+    <meta property="og:description" content="The New Relic Fundamentals Certification program will help you build the foundation you need to become an expert on the New Relic Observability Platform.">
+    <meta name="twitter:description" content="The New Relic Fundamentals Certification program will help you build the foundation you need to become an expert on the New Relic Observability Platform.">
+    <meta name="description" content="The New Relic Fundamentals Certification program will help you build the foundation you need to become an expert on the New Relic Observability Platform.">
+
+
+
+
+
+
+    <meta property="og:image" content="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/course_series/3g8he5fpw9n6a/promo-image.1573003539.png">
+    <meta name="twitter:image" content="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/course_series/3g8he5fpw9n6a/promo-image.1573003539.png">
+
+
+
+
+
+<meta property="fb:app_id" content="571325372910940">
+
+
+    <meta property="og:url" content="https://learn.newrelic.com/series/fundamentals">
+
+
+
+    <meta property="og:type" content="website">
+
+
+
+    <meta property="og:site_name" content="New Relic">
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@skilljar">
+
+
+
+    <title>New Relic Fundamentals Certification Program</title>
+
+    
+    
+        <link rel="stylesheet" href="./New Relic Fundamentals Certification Program_files/sj_course_platform.aaaa3129cda5.css">
+        
+    
+
+    
+    
+        
+            
+                <link rel="stylesheet" href="./New Relic Fundamentals Certification Program_files/xjnyp0weakhy.css">
+            
+        
+        
+    
+
+    
+    
+
+    
+    
+
+    <script>
+        window.SKILLJAR_DASHBOARD_GLOBALS = {};
+        SKILLJAR_DASHBOARD_GLOBALS.TIME_ZONE = 'America/Los_Angeles';
+    </script>
+
+    
+    
+        <script src="./New Relic Fundamentals Certification Program_files/modernizr.min.d22de1f472d7.js"></script>
+    
+
+    
+    
+        <script src="./New Relic Fundamentals Certification Program_files/jquery.min.55ced129c632.js"></script>
+    
+
+    <script src="./New Relic Fundamentals Certification Program_files/polyfills.min.08fea970867a.js"></script>
+
+    
+        
+    
+
+    
+        
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+    ga('create', {
+        trackingId: 'UA\u002D3047412\u002D38',
+        cookieDomain: 'auto',
+        
+        userId: '2fjx7wlu795q9',
+        
+    });
+
+    ga('create', {
+        trackingId: 'UA\u002D40340039\u002D1',
+        cookieDomain: 'auto',
+        name: 'skilljarTracker',
+        userId: '2fjx7wlu795q9',
+        
+    });
+
+
+
+    
+    
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+
+    
+        ga('skilljarTracker.set', 'dimension1', 'true');
+    
+    
+    ga('skilljarTracker.set', 'anonymizeIp', true);
+    ga('skilljarTracker.send', 'pageview');
+
+</script>
+
+
+
+    
+
+    
+        
+
+
+
+<script>
+    var isSkilljarTestUser = false;
+    
+    var isSkilljarFirstPageviewSinceAuth = false;
+    
+    var isSkilljarFirstPageviewSinceNewDomainMembership = false;
+    
+        var skilljarUser = {
+            id: '2fjx7wlu795q9',
+            email: 'lhurrell@newrelic.com',
+            name: 'liam hurrell',
+            firstName: 'liam',
+            lastName: 'hurrell'
+            
+            
+        };
+        
+        var skilljarUserSignupFields = {
+            
+        };
+        var skilljarUserStudentGroups = [
+            
+            {
+                id: "35fexqehf3e8g",
+                name: "Erica\u0027s Demo group"
+                
+                },
+                
+            
+            {
+                id: "1dnbb3ciy12e",
+                name: "New Relic One"
+                
+                },
+                
+            
+            {
+                id: "3qih1y23texqo",
+                name: "Partner Enablement"
+                
+                }
+                
+            
+        ];
+        
+    
+    
+    
+        var skilljarCourseSeries = {
+            id: '3g8he5fpw9n6a',
+            title: 'New Relic Fundamentals Certification Program',
+            header_html: '\u003Cdiv\u003E\u000D\u000A\u003Cstyle\u003E\u000D\u000A  .underline\u002Dheader {\u000D\u000A    border\u002Dbottom: 1px solid #ccc\u003B\u000D\u000A    padding\u002Dbottom: 10px\u003B\u000D\u000A  }\u000D\u000A  .tab\u002Dlabel {\u000D\u000A    font\u002Dsize: 1.5em\u003B\u000D\u000A  }\u000D\u000A  .justify\u002Dcontent\u002Dcenter {\u000D\u000A    \u002Dwebkit\u002Dbox\u002Dpack: center!important\u003B\u000D\u000A    \u002Dms\u002Dflex\u002Dpack: center!important\u003B\u000D\u000A    justify\u002Dcontent: center!important\u003B\u000D\u000A  }\u000D\u000A  .nav {\u000D\u000A    display: \u002Dwebkit\u002Dbox\u003B\u000D\u000A    display: \u002Dms\u002Dflexbox\u003B\u000D\u000A    display: flex\u003B\u000D\u000A    \u002Dms\u002Dflex\u002Dwrap: wrap\u003B\u000D\u000A    flex\u002Dwrap: wrap\u003B\u000D\u000A    padding\u002Dleft: 0\u003B\u000D\u000A    margin\u002Dbottom: 0\u003B\u000D\u000A    list\u002Dstyle: none\u003B\u000D\u000A  }\u000D\u000A  .nav\u002Ditem {\u000D\u000A    padding\u002Dleft: 10px\u003B\u000D\u000A    padding\u002Dright: 10px\u003B\u000D\u000A  }\u000D\u000A  section.bg\u002Ddark.turquoise.c06\u002Dplatform\u002Dmodules {\u000D\u000A    /*background\u002Dcolor: #008c99\u003B*/\u000D\u000A    /*background\u002Dcolor: none\u003B*/\u000D\u000A    background\u002Dsize: cover\u003B\u000D\u000A    background\u002Dposition: 50% 50%\u003B\u000D\u000A    background\u002Drepeat: no\u002Drepeat\u003B\u000D\u000A  }\u000D\u000A  .p05\u002Dproduct\u002Dmodules .flex .module {\u000D\u000A      flex\u002Dbasis: 33.3333%\u003B\u000D\u000A      align\u002Dcontent: center\u003B\u000D\u000A      margin\u002Dbottom: 30px\u003B\u000D\u000A  }\u000D\u000A  .p05\u002Dproduct\u002Dmodules .flex .module .content {\u000D\u000A      height: 100%\u003B\u000D\u000A      margin: 15px\u003B\u000D\u000A      border\u002Dradius: 6px\u003B\u000D\u000A      box\u002Dshadow: 0 0 15px rgba(0, 0, 0, 0.25)\u003B\u000D\u000A  }\u000D\u000A  .p05\u002Dproduct\u002Dmodules .flex .module .content .icon {\u000D\u000A      padding: 15px 0\u003B\u000D\u000A      border\u002Dbottom: 1px solid #dcdcdc\u003B\u000D\u000A  }\u000D\u000A  .p05\u002Dproduct\u002Dmodules .flex .module .content .text {\u000D\u000A      padding: 30px 30px 17px\u003B\u000D\u000A  }\u000D\u000A  .p05\u002Dproduct\u002Dmodules .flex {\u000D\u000A      display: flex\u003B\u000D\u000A      flex\u002Ddirection: row\u003B\u000D\u000A      flex\u002Dwrap: wrap\u003B\u000D\u000A      justify\u002Dcontent: center\u003B\u000D\u000A      align\u002Dcontent: center\u003B\u000D\u000A      align\u002Ditems: stretch\u003B\u000D\u000A  }\u000D\u000A@media (max\u002Dwidth: 995px){\u000D\u000A      .p05\u002Dproduct\u002Dmodules .flex {\u000D\u000A          display: block\u003B\u000D\u000A      }\u000D\u000A\u000D\u000A\u003C/style\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003Csection class\u003D\u0022section bg\u002Ddark turquoise c06\u002Dplatform\u002Dmodules\u0022 style\u003D\u0022background\u002Dimage: url(\u0027https://everpath\u002Dcourse\u002Dcontent.s3\u002Daccelerate.amazonaws.com/instructor%2Felauervose_newrelic_com_jhbbk6%2Fpublic%2Fl1certheader.1570472299915.jpg\u0027)\u003B\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022container\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022row\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022col\u002Dsm\u002D12 col\u002Dmd\u002D12\u0022\u003E\u000D\u000A\u003Ch2 class\u003D\u0022text\u002Dcenter\u0022\u003EGet Certified in New Relic Fundamentals\u003C/h2\u003E\u000D\u000A\u003Cp style\u003D\u0022text\u002Dalign: center\u003B font\u002Dsize: 1.3em\u003B\u0022\u003EThe \u003Cstrong\u003ENew Relic Fundamentals Certification program\u003C/strong\u003E will help you build the foundation you need to become an expert on the New Relic Observability Platform.\u003C/p\u003E\u000D\u000A\u003Cp style\u003D\u0022text\u002Dalign: center\u003B font\u002Dsize: 1.3em\u003B\u0022\u003EGet the skills and knowledge you need to use New Relic to see what\u0027s happening in your application, understand where the problems are, discover opportunities for optimizing your entire application ecosystem, and make sure you never miss an issue that needs attention.\u003C/p\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/section\u003E\u000D\u000A\u003Cdiv class\u003D\u0022p05\u002Dproduct\u002Dmodules\u0022\u003E\u000D\u000A\u003Csection class\u003D\u0022section\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022container\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022row\u0022\u003E\u000D\u000A\u003Ch2 class\u003D\u0022text\u002Dcenter\u0022\u003EEarn your certification in three steps\u003C/h2\u003E\u000D\u000A\u003Cp style\u003D\u0022text\u002Dalign: center\u003B font\u002Dsize: 1.3em\u003B\u0022\u003EThe New Relic Fundamentals Certification Program is made up of three components designed to take you through the basics you need to know to manage your applications and services.\u003C/p\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003Cdiv class\u003D\u0022row\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022flex col\u002Dxs\u002D12\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022module\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022content\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022icon text\u002Dcenter\u0022\u003E\u000D\u000A\u003Ch2 style\u003D\u0022color: #008c99\u003B font\u002Dweight: 600\u003B\u0022\u003EStep 1\u003C/h2\u003E\u000D\u000A\u003C!\u002D\u002D \u003Cimg src\u003D\u0022./New Relic Metrics \u0026amp\u003B Traces _ New Relic_files/Database.png\u0022\u003E \u002D\u002D\u003E\u003C/div\u003E\u000D\u000A\u003Cdiv class\u003D\u0022text\u0022\u003E\u000D\u000A\u003Ch4\u003EPerformance Monitoring with New Relic\u003C/h4\u003E\u000D\u000A\u003Cp\u003EIn this course, you\u0026rsquo\u003Bll get a high level overview of the New Relic Platform and how it works \u0026ndash\u003B from what each product monitors and what data they collect, to the ways they work together to give you a complete picture of your whole architecture.\u003C/p\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003Cdiv class\u003D\u0022module\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022content\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022icon text\u002Dcenter\u0022\u003E\u000D\u000A\u003Ch2 style\u003D\u0022color: #008c99\u003B font\u002Dweight: 600\u003B\u0022\u003EStep 2\u003C/h2\u003E\u000D\u000A\u003C!\u002D\u002D \u003Cimg src\u003D\u0022./New Relic Metrics \u0026amp\u003B Traces _ New Relic_files/c17_microservices.png\u0022\u003E \u002D\u002D\u003E\u003C/div\u003E\u000D\u000A\u003Cdiv class\u003D\u0022text\u0022\u003E\u000D\u000A\u003Ch4\u003ESelect a New Relic Product Course\u003C/h4\u003E\u000D\u000A\u003Cp\u003EStart by selecting the course covering the product for which want to be certified. Each course will take you step\u002Dby\u002Dstep through what you need to know for that product.\u003C/p\u003E\u000D\u000A\u003Cp style\u003D\u0022font\u002Dsize: .75em\u003B\u0022\u003E\u003Cem\u003E* Right now this step only includes New Relic APM, but stay tuned \u002D we will have more course modules rolling out soon!\u003C/em\u003E\u003C/p\u003E\u000D\u000A\u003C!\u002D\u002D \u003Cp\u003E\u000D\u000A                  By the end of this course, you will:\u000D\u000A                  \u003Col\u003E\u000D\u000A                    \u003Cli\u003EHave set up your selected New Relic product with the relevant data reporting to your New Relic account\u003C/li\u003E\u000D\u000A                    \u003Cli\u003EBe able to use the product dashboards to address the most urgent issues immediately\u003C/li\u003E\u000D\u000A                    \u003Cli\u003EHave organized your data using product\u002Dspecific features such as labels\u003C/li\u003E\u000D\u000A                    \u003Cli\u003EEstablish a performance baseline so you can identify what matters most to you and what you might want to monitor, improve, or continue to troubleshoot\u003C/li\u003E\u000D\u000A                    \u003Cli\u003EKnow how to analyze your data to gather deeper insight into your digital business\u003C/li\u003E\u000D\u000A                  \u003C/ol\u003E\u000D\u000A                \u003C/p\u003E \u002D\u002D\u003E\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003Cdiv class\u003D\u0022module\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022content\u0022\u003E\u000D\u000A\u003Cdiv class\u003D\u0022icon text\u002Dcenter\u0022\u003E\u000D\u000A\u003Ch2 style\u003D\u0022color: #008c99\u003B font\u002Dweight: 600\u003B\u0022\u003EStep 3\u003C/h2\u003E\u000D\u000A\u003C!\u002D\u002D \u003Cimg src\u003D\u0022./New Relic Metrics \u0026amp\u003B Traces _ New Relic_files/c17_microservices.png\u0022\u003E \u002D\u002D\u003E\u003C/div\u003E\u000D\u000A\u003Cdiv class\u003D\u0022text\u0022\u003E\u000D\u000A\u003Ch4\u003ENew Relic Alerting\u003C/h4\u003E\u000D\u000A\u003Cp\u003EMake sure you never miss an issue that needs your attention. In this course, you\u0027ll learn how to create an alert policy to fit your monitoring needs and how to set up your notification channels so issues get addressed by the right people right away.\u003C/p\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/div\u003E\u000D\u000A\u003C/section\u003E\u000D\u000A\u003C/div\u003E',
+            long_description_html: '',
+            short_description: 'The New Relic Fundamentals Certification program will help you build the foundation you need to become an expert on the New Relic Observability Platform.',
+            slug: 'fundamentals',
+            tags: ["Get Certified","Get Started with APM","Insights Dashboards","New Relic Fundamentals"],
+            publishedCourses: [
+                
+                    {
+                        publishedCourseId: '3qeqlkq4b70e',
+                        title: 'New Relic Fundamentals Certification Program Overview',
+                        slug: 'new\u002Drelic\u002Dfundamentals\u002Dcertification\u002Dprogram\u002Doverview'
+                    },
+                
+                    {
+                        publishedCourseId: '3hsg1s2egm2vq',
+                        title: 'Performance Monitoring Fundamentals',
+                        slug: 'performance\u002Dmonitoring\u002Dfundamentals'
+                    },
+                
+                    {
+                        publishedCourseId: '3570w89ovj8z5',
+                        title: 'Certification Assessment: Performance Monitoring Fundamentals',
+                        slug: 'certification\u002Dassessment\u002Dperformance\u002Dmonitoring\u002Dfundamentals'
+                    },
+                
+                    {
+                        publishedCourseId: 'a5c6wvlwa2kp',
+                        title: 'New Relic APM Fundamentals',
+                        slug: 'new\u002Drelic\u002Dapm\u002Dfundamentals'
+                    },
+                
+                    {
+                        publishedCourseId: '3sf54m5x7khvl',
+                        title: 'New Relic Insights + APM Fundamentals',
+                        slug: 'new\u002Drelic\u002Dinsights\u002Dapm\u002Dfundamentals'
+                    },
+                
+                    {
+                        publishedCourseId: '12u73yw8no652',
+                        title: 'Certification Assessment: New Relic APM Fundamentals',
+                        slug: 'certification\u002Dassessment\u002Dnew\u002Drelic\u002Dapm\u002Dfundamentals'
+                    },
+                
+                    {
+                        publishedCourseId: '3kp4k0lx5ywkd',
+                        title: 'New Relic Alerts Fundamentals',
+                        slug: 'new\u002Drelic\u002Dalerts\u002Dfundamentals'
+                    },
+                
+                    {
+                        publishedCourseId: 'moqruwl7umah',
+                        title: 'Certification Assessment: New Relic Alerts',
+                        slug: 'certification\u002Dassessment\u002Dnew\u002Drelic\u002Dalerts'
+                    },
+                
+                    {
+                        publishedCourseId: 'ygmp22sm1tkp',
+                        title: 'New Relic APM Fundamentals Certification Authentication',
+                        slug: 'new\u002Drelic\u002Dapm\u002Dfundamentals\u002Dcertification\u002Dauthentication'
+                    }
+                
+            ]
+        }
+    
+    
+    
+    
+</script>
+
+    
+
+    
+        
+
+<script>
+    var sjlpPluralizationIndex = function (n) { return ((n != 1) ? 1 : 0) };
+    var sjlpLanguagePack = {
+    };
+</script>
+
+        
+        
+    
+
+    
+    
+        <meta class="swiftype" name="type" data-type="enum" content="nru">
+<!-- Google Tag Manager: this is here because it needs to be added in the head to function properly -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WWB4C4');</script>
+<!-- End Google Tag Manager -->
+
+<style>
+
+/* =========================================== */
+/* Custom Course Series - this is here to prevent custom course series from showing up in the "this course is also available as part of..." */
+/* =========================================== */
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Partner Enablement"], 
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Private Course Series 03"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="JD Sports - New Relic Learning Path"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Private Course Series 02"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="New Relic G&A Knowledge Base"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Manulife  - New Relic Learning Path"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Bosch"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Private Course Series 01"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Tableau - Guided Learning Path"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Certified Performance Pro"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Technical Enablement"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Red Ventures - New Relic Learning Path"],
+div.columns.text-center.large-6.dp-summary-wrapper li a[title|="Telstra - New Relic Learning Path"]
+{
+  display: none;
+}
+
+
+/* =========================================== */
+/* Alert Box Styles */
+/* =========================================== */
+
+.alert-box.error {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: 800;
+  margin-bottom: 1.25em;
+  position: relative;
+  padding: .6875em 1.3125em .75em .6875em;
+  font-size: 1em;
+  background-color: #dc2a19;
+  border-color: #970b0e;
+  color: #fff;
+}
+
+span.sj-text-sj-text-error-must-complete-prereqs span a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* =========================================== */
+/* Quiz Styles*/
+/* =========================================== */
+
+  .quiz .start-quiz .description {
+      font-size: 1.25em;
+      /*margin-bottom: 1.5em;*/
+  }
+  div#quiz-container h1 {
+    font-size: 30px;
+  }
+  @media (min-width: 768px){
+      div#quiz-container  h1 {
+          font-size: 30px;
+      }
+    }
+   .quiz .question .form-answers label {
+      position: relative;
+      margin: 0 0 16px 0;
+      padding-left: 32px;
+      line-height: 1.5;
+  }
+
+  div#quiz-container label {
+      font-size: 1em;
+      color: #4d4d4d;
+      cursor: pointer;
+      display: block;
+      font-weight: 500;
+      margin-bottom: .1875em;
+  }
+
+  .quiz .question .form-answers input[name="chosen_answers"] {
+      margin: 0;
+      position: absolute;
+      top: 10px;
+      left: 2px;
+      height: 20px;
+      width: 20px;
+  }
+
+  div#quiz-container div.completed-quiz{
+      font-size: .8em;
+    }
+  .quiz .completed-quiz .score, .quiz .completed-quiz .time{
+      margin-bottom: 20px;
+      line-height: 1.3em;
+    }
+
+/* =========================================== */
+/* This class is here until we have time to fix the mobile nav menu */
+/* =========================================== */
+#header a.burger {
+  text-align: center;
+}
+
+/* =========================================== */
+
+/* Put things in the right places */
+#main-container {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    height: auto;
+    width: 100%;
+    overflow: visible;
+    position: absolute;
+    min-width: 380px;
+}
+
+.nruheader {
+  display: block;
+  direction: ltr;
+  box-sizing: border-box;
+  position: relative;
+  /*padding: 50px 0;*/
+  /*height: 400px;*/
+  height: 100%;
+  background-size: 100%;
+  z-index: 1;
+}
+
+
+/* FOOTER */
+#nrufooter {
+  display: block;
+  clear: both;
+  background: #4e4e4e;
+  padding: 2em;
+  /*text-align: center;*/
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/* SUPPRESS SOCIAL MEDIA SHARE BUTTONS */
+
+.socialaccount_providers {
+  display: none;
+}
+
+/* SKILLJAR CONTENT */
+
+.catalog-filters #skilljar-content {
+  max-width: 90%;
+  display: block;
+  clear: both;
+  margin: 0 5% 0 5%;
+  background: #fff;
+  padding-top: 20 !important;
+}
+
+#skilljar-content {
+  padding-top: 50px;
+  margin-top: 1em;
+}
+
+.top-row {
+  display: inline-block;
+  width: 75%;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.list-view .catalog-center-width {
+  padding: 0 0 0 24px;
+}
+
+.catalog-center-width.one-col-full {
+  width: 100% !important;
+  padding: 0
+}
+
+.catalog-center-width.one-col-full .catalog-header {
+  padding: 0
+}
+
+.catalog-center-width.one-col-full .catalog-header h1.catalog-center-width {
+  padding: 0 16px
+}
+@media only screen and (min-width: 768px) {
+  .storefront .top-row {
+    padding-top: 0px;
+    padding-bottom: 24px;
+  }
+}
+
+a.theme-no-hover {
+  color: #0ab0bf;
+}
+
+
+/* LEFT NAV */
+
+
+
+@media screen and (min-width: 875px){
+#catalog-left-nav {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 20 16px;
+  /*background-color:*/
+  /*margin-top: 45px;*/
+}
+
+#catalog-left-nav.cbp-spmenu {
+  width: 25%;
+  /*background: #fff;*/
+  border: none;
+  top: 0;
+  z-index: 4;
+}
+
+#catalog-left-nav h3 {
+  margin-bottom: 2px;
+  font-size: 18px;
+  text-transform: none;
+  display: inline-block;
+}
+
+#catalog-left-nav hr {
+  display: none;
+}
+
+#catalog-left-nav .tag-labels {
+  padding-left: 0;
+}
+
+#catalog-left-nav h3 {
+  margin-bottom: .5em;
+  margin-top: 1em;
+  font-size: 1.1em;
+  text-transform: none;
+  display: inline-block;
+}
+}
+
+span.filter-name {
+  font-size:15px;
+  font-weight:200;
+  color: #545454;
+}
+
+.filter-option .fa-stack {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.2em;
+}
+.filter-option .fa-stack .fa-circle {
+  display: none;
+  /*color: #0ab0bf;*/
+  font-size: 14px;
+}
+.filter-option.checked .fa-stack .fa-check-circle {
+  display: block;
+  /*color: #545454;*/
+  font-size: 16px;
+}
+
+.filter-option-type {
+  display: inline-block;
+  background-color: transparent;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin: 2px 0;
+  color: #eee;
+}
+
+/* COURSE CONTENT AREA */
+
+.search #catalog-search-info {
+  background-color: #4b4b4b;
+  margin-left: 24px;
+  width: 98%;
+}
+
+div.catalog-center-width.one-col-full {
+  height: 0px;
+}
+
+#catalog-search-info a#filter_type_-l.filter-option-type.checked.filter-option span,
+#catalog-search-info a#filter_type_-c.filter-option-type.checked.filter-option span{
+  color: white;
+}
+
+@media screen and (max-width: 999px){
+  .catalog-filters #skilljar-content {
+    max-width: 100%;
+  }
+  .top-row {
+    padding-right: 10px;
+  }
+  .filter-option .fa-stack {
+    font-size: 14px;
+    line-height: 1.2em;
+  }
+  span.filter-name {
+    font-size:14px;
+    font-weight:200;
+  }
+}
+
+@media screen and (max-width: 875px){
+  .top-row {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .list-view .catalog-center-width {
+      padding: 10px;
+  }
+  .catalog-filters #skilljar-content {
+      max-width: 100%;
+  }
+}
+
+/* FOOTER */
+#nrufooter {
+  display: block;
+  clear: both;
+  background: #4e4e4e;
+  padding: 2em;
+  /*text-align: center;*/
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#ep-footer {
+  display: block;
+  clear: both;
+  margin-left: 0 !important;;
+}
+footer #footer-left ul li:nth-child(1)::after {
+  content: ' New Relic';
+}
+
+
+/* COURSE PAGES */
+
+div.tooltips-content p{
+  color: #fff;
+}
+
+
+#scrollTop {
+  /*width: 100%;
+  height: 600px;*/
+  /*position: relative;*/
+}
+
+
+/* ===================================================== */
+/* ===================================================== */
+
+/* THEME */
+/* ===================================================== */
+
+/* PAGE */
+/* ===================================================== */
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+html, body, button, form, input, select {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: "Open Sans", Helvetica, sans-serif!important;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #333333;
+  background-color: white;
+}
+
+
+
+p {
+  margin: 0 0 13px;
+  /*font-weight: 100;*/
+  text-rendering: optimizeLegibility;
+  /*font-size: 1em;*/
+}
+h1 {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a:hover, a:focus {
+    color: #008c99;
+    text-decoration: none;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+    clear: both;
+  }
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+@media (min-width: 1200px){
+  .container {
+      width: 1170px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; }
+  }
+@media (min-width: 992px) {
+  .container {
+    width: 970px; }
+  }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; }
+  }
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media (min-width: 768px) {
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+}
+
+main > .section:first-child, main > .hero:first-child, main > div:first-child {
+    margin-top: 110px;
+}
+@media (min-width: 992px){
+  main > .section:first-child, main > .hero:first-child, main > div:first-child {
+      margin-top: 80px;
+  }
+}
+@media (max-width: 875px){
+  main > .section:first-child, main > .hero:first-child, main > div:first-child {
+      margin-top: 0px;
+  }
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 992px){
+  .col-md-push-2 {
+      left: 16.66667%;
+  }
+}
+
+
+@media (min-width: 992px){
+  .col-md-8 {
+    width: 66.66667%;
+}
+}
+
+@media (min-width: 992px){
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+}
+
+
+
+/* Header & Nav */
+/* ===================================================== */
+
+#header {
+  background-color: white;
+  border-bottom: 1px solid #d7d7d7;
+  z-index: 1002;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  float: left;
+  transition: top .5s;
+  color: #333333;
+  font-size: 13px;
+
+  display: flex;
+}
+
+#header .header-dropdown-button:before {
+    border-color: #333333 transparent transparent transparent;
+}
+
+#header, #header .header-link {
+  color: #333333;
+  font-size: 1em;
+  font-weight: 600;
+}
+#header, #header .header-link:hover {
+  color: #0ab0bf;
+}
+.u04-subnav {
+  z-index: 1200;
+}
+.u04-subnav + .section,
+.u04-subnav + .hero,
+.u04-subnav + div {
+  margin-top: 160px;
+}
+
+@media (max-width: 992px) {
+  .u04-subnav + .section,
+  .u04-subnav + .hero,
+  .u04-subnav + div {
+    margin-top: 0px;
+  }
+}
+
+.nav-subnav.nr-default-light {
+    background-color: #eeeef1;
+    border-bottom-color: #d2d2da;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.nav-subnav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    transition: top .5s;
+    z-index: 1002;
+}
+.nav-subhead {
+    width: 100%;
+    top: 80px;
+    left: 0;
+}
+
+
+@media (min-width: 1200px){
+  .nav-subnav .nav-subnav-inner {
+      width: 1170px;
+  }
+}
+@media (max-width: 992px){
+  .nav-subnav {
+    top: -80;
+  }
+
+}
+@media (max-width: 875px){
+  .nav-subnav {
+    display: none;
+  }
+
+}
+.nav-subnav .nav-subnav-inner {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  text-overflow: ellipsis;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.nav-subnav li {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  margin-bottom: 0;
+  line-height: 26px;
+}
+ol li, ul li {
+  margin: 0 0 13px;
+}
+.nav-subnav.nr-default-light a.on {
+  font-weight: 700;
+  color: black;
+}
+.nav-subnav a {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  -webkit-transition: color 0.15s 0s ease-in-out;
+  -o-transition: color 0.15s 0s ease-in-out;
+  transition: color 0.15s 0s ease-in-out;
+}
+
+#nav_header {
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid #d7d7d7;
+  z-index: 1002;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  float: left;
+  transition: top .5s;
+}
+.nav-subnav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  transition: top .5s;
+  z-index: 1001;
+}
+
+.nav-subnav .nav-subnav-inner {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  text-overflow: ellipsis;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav-subnav .nav-subnav-inner:before, .nav-subnav .nav-subnav-inner:after {
+  content: " ";
+  display: table;
+}
+.nav-subnav .nav-subnav-inner:after {
+  clear: both;
+}
+
+/*@media (max-width: 991px) {
+  .nav-subnav {
+    position: absolute;
+    top: 110px;
+  }
+}*/
+
+@media (min-width: 768px) {
+.nav-subnav .nav-subnav-inner {
+  width: 750px;
+  }
+}
+@media (min-width: 992px) {
+.nav-subnav .nav-subnav-inner {
+  width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+.nav-subnav .nav-subnav-inner {
+  width: 1170px;
+  }
+}
+.nav-subnav ul {
+  position: relative;
+  list-style-type: none;
+  height: 50px;
+  padding: 0;
+  margin: 0 30px 0 0;
+  font-size: 16px;
+  font-weight: normal;
+  min-width: 100%;
+}
+
+.nav-subnav li {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  margin-bottom: 0;
+  line-height: 26px;
+}
+.nav-subnav a {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  -webkit-transition: color 0.15s 0s ease-in-out;
+  -o-transition: color 0.15s 0s ease-in-out;
+  transition: color 0.15s 0s ease-in-out;
+}
+.nav-subnav.nr-default-light {
+  background-color: #eeeef1;
+  border-bottom-color: #d2d2da;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.nav-subnav.nr-default-light a.on,
+.nav-subnav.nr-default-light a:hover,
+.nav-subnav.nr-default-light a:active,
+.nav-subnav.nr-default-light a:focus {
+  color: black;
+}
+.nav-subnav.nr-default-light a.on {
+  font-weight: 700;
+}
+
+nav #nru-nav div.nav-subnav-inner a {
+  color: #333333;
+}
+.nav-subnav.nr-default-light a {
+    color: #333333;
+}
+nav #nru-nav div.nav-subnav-inner a.on {
+  font-weight: 700;
+  color: black;
+}
+
+
+.nav-subnav.nr-default-light .nav-subnav-inner:before, .nav-subnav.nr-default-light .nav-subnav-inner:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  z-index: 20;
+  width: 10px;
+}
+.nav-subnav.nr-default-light .nav-subnav-inner:before {
+  left: -10px;
+  -webkit-box-shadow: 0 0 8px 15px #eeeef1;
+  box-shadow: 0 0 8px 15px #eeeef1;
+}
+.nav-subnav.nr-default-light .nav-subnav-inner:after {
+  right: -10px;
+  -webkit-box-shadow: 0 0 15px 25px #eeeef1;
+  box-shadow: 0 0 15px 25px #eeeef1;
+}
+
+@media (min-width: 992px) {
+  .u04-subnav + .section,
+  .u04-subnav + .hero,
+  .u04-subnav + div {
+    margin-top: 65px;
+  }
+}
+
+#header-left img.header-center-img {
+  /*padding: 8px;*/
+  height: 30px;
+  width: 170px;
+  min-width: 170px;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+
+
+/* MOBILE NAV  */
+/* ===================================================== */
+
+
+#lpLeftNavBackground {
+  z-index: 3;
+  position: fixed;
+  opacity: 0;
+  background: #000;
+  top: 0;
+  left: 52px;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+body.cbp-spmenu-open #lpLeftNavBackground {
+  visibility: visible;
+}
+
+/* BANNER */
+/* ===================================================== */
+
+.valign-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.valign-outer .valign-inner {
+    display: table-cell;
+    vertical-align: middle;
+            padding-top: 35px;
+}
+.bg-dark h1, .bg-dark .h1,
+.bg-dark h2, .bg-dark .h2,
+.bg-dark h3, .bg-dark .h3,
+.bg-dark h4, .bg-dark .h4,
+.bg-dark h5, .bg-dark .h5,
+.bg-dark h6, .bg-dark .h6{
+    color: white;
+  }
+.bg-dark {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+a.bg-dark:hover,
+a.bg-dark:focus {
+  background-color: #030303; }
+
+.c11-flexible-banner .super-head {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.c11-flexible-banner .btn {
+  margin: 15px;
+  margin-top: 0;
+}
+
+.c11-flexible-banner .icon {
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+@media (min-width: 1200px){
+  .hero .hero-inner {
+      height: 570px;
+  }
+}
+
+
+.hero .hero-inner {
+    padding: 80px 0;
+}
+
+
+@media (min-width: 1200px){
+  .hero {
+      height: 570px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .c11-flexible-banner .btn {
+    margin-top: 15px; }
+  }
+
+.btn {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 16px;
+  font-size: 16px;
+  line-height: 1.625;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn-primary {
+    color: white;
+    background-color: #fa492b;
+    border-color: #fa492b;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #ec2706;
+    border-color: #e22505;
+}
+
+h1, .h1 {
+  font-weight: 400;
+  line-height: 1.2em;
+  margin-bottom: 32px;
+  text-transform: none;
+}
+@media (min-width: 768px){
+    h1, .h1 {
+      font-size: 54px;
+  }
+}
+.intro {
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 1.555555556;
+}
+@media (min-width: 768px){
+  .intro {
+    font-size: 18px;
+  }
+}
+
+/* COURSE PAGEs */
+/* ===================================================== */
+
+@media only screen and (min-width: 768px) {
+  .top-row, .top-row-grey {
+      padding-top: 3em;
+      padding-bottom: 3em;
+  }
+}
+
+
+#twitter-widget-0 {
+  vertical-align: bottom;
+}
+
+#dp-details ul.dp-curriculum li.section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/*#dp-details div.dp-long-description {
+ font-size: .875em;
+}*/
+
+
+#dp-details div.dp-long-description ul, div.dp-long-description ol, div.dp-long-description dl {
+  font-size: .875em;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+  list-style-position: outside;
+  font-family: inherit;
+  padding-left: 30px;
+}
+div.catalog-header .container.cert-top {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+
+.bg-gray {
+    background-color: #f7f7f7;
+}
+.p11-feature-pillars .bg-gray .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.p11-feature-pillars .bg-gray .row .col-md-4 {
+    flex: 0 1 30%;
+    align-self: stretch;
+    padding: 20px;
+    background-color: white;
+    width: auto;
+    float: none;
+}
+.p11-feature-pillars .img-wrap {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.p11-feature-pillars .container.cert-icon-list .img-wrap img{
+    max-height: 80px;
+}
+
+div.container.cert-icon-list {
+    /*margin-right: auto;
+    margin-left: auto;*/
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (max-width: 991px){
+  .p11-feature-pillars .bg-gray .row .col-md-4 {
+      flex: none;
+      padding: 20px 20px 0;
+      width: 100%;
+      float: left;
+      margin-bottom: 20px;
+  }
+ .p11-feature-pillars .cell {
+      margin-bottom: 40px;
+  }
+  .p11-feature-pillars .bg-gray .row {
+      display: block;
+      margin-left: 0;
+      margin-right: 0;
+  }
+  div.container.cert-icon-list {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+
+
+
+/* LESSON PAGES */
+/* ===================================================== */
+
+div#main-container.lesson-page .lp-color-scheme-light #lp-wrapper {
+    background-color: #eee;
+    color: #2a2a2a;
+}
+
+@media only screen and (min-width: 768px) {
+  div#main-container.lesson-page #lp-wrapper {
+    height: 100%;
+    /*height: 703.333px;*/
+    padding-top: 102px;
+    padding-bottom: 50px;
+  }
+  div#main-container.lesson-page #lp-wrapper #lp-content {
+      /*height: 100%;*/
+      height: 703.333px;
+  }
+  div#main-container.lesson-page #lp-wrapper #lesson-body.details-pane-left, #lp-wrapper #lesson-body.details-pane-right {
+      /*height: 100%;*/
+      height: 703.333px;
+  }
+  div#main-container.lesson-page #lp-wrapper #lesson-body.details-pane-closed #lesson-main {
+      padding-left: 80px;
+      padding-right: 80px;
+  }
+  div#main-container.lesson-page #lp-wrapper #lesson-body.details-pane-closed #lesson-main, #lp-wrapper #lesson-body.details-pane-bottom #details-pane {
+      position: relative;
+      width: 100%;
+  }
+  div#main-container.lesson-page #lp-wrapper #lesson-body.details-pane-right #lesson-main-content {
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      bottom: 16px;
+      overflow: auto;
+  }
+}
+div#main-container.lesson-page #lp-wrapper {
+    min-height: 100%;
+    /*min-height: 703.333px;*/
+}
+
+div#main-container.lesson-page .noscroll, div#main-container.lesson-page #lp-wrapper #lesson-body.details-pane-left, div#main-container.lesson-page #lp-wrapper #lesson-body.details-pane-right {
+    overflow: hidden;
+}
+
+div#main-container.lesson-page #lp-wrapper #lesson-body {
+    position: relative;
+    -webkit-transition: all ease 250ms;
+    transition: all ease 250ms;
+}
+div#main-container.lesson-page .fullheight {
+    height: 100%;
+}
+div#main-container.lesson-page #lesson-main-inner {
+    height: 100%;
+    position: relative;
+}
+div#main-container.lesson-page #lp-wrapper #lesson-body .lesson-top {
+    padding: 12px 0 10px;
+}
+div#main-container.lesson-page #lp-wrapper #lesson-body #scaled_embedded_content {
+    width: 100%;
+    position: relative;
+}
+
+
+
+/* CERTIFICATION "ABOUT THE PROGRAM" */
+/* ===================================================== */
+
+div#about-CPP-test.hp02-campaign-tiles .course-text-content, div#appBaseline.hp02-campaign-tiles .course-text-content {
+  padding: 1em 2.5em;
+  background-color: white;
+  color: #151515;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: initial;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-type: none;
+  text-align: left;
+  /*border: 1px solid #d5d5d5;*/
+  border: none;
+}
+
+div.hp02-campaign-tiles p {
+  font-size: 1.3em;
+}
+
+#about-CPP-test div.hp02-campaign-tiles ul,
+#appBaseline div.hp02-campaign-tiles ul {
+  font-size: 1.3em;
+  margin-top: 0px;
+}
+div.hp02-campaign-tiles li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.text-wrap p, .text-wrap ul {
+  margin-top: 20px;
+}
+
+div#about-certification-program.content.content-default.clearfix ul li p{
+  display: inline-block;
+}
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  list-style-position: outside;
+}
+
+ul.description {
+  margin-left: 4.5em;
+}
+
+@media (min-width: 992px) {
+  div#about-CPP-program  .col-md-6 {
+    width: 45%;
+  }
+  div#about-CPP-program  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+  }
+}
+
+#lp-wrapper #lesson-body div#about-CPP-program  h4  {
+    font-size: 1.5em;
+}
+
+#about-CPP-test .tile h4,
+#appBaseline .tile h4  {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+}
+
+
+#lp-wrapper #lesson-body #about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content h4.cpp-title,
+#lp-wrapper #lesson-body #appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content h4.appBaseline-title {
+  font-size: 1.4em;
+}
+
+
+#about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles,
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles {
+    display: flex;
+    align-content: space-around;
+    margin-top: 25px;
+}
+
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles a {
+  color: #0ab0bf;
+}
+
+#about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile,
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile {
+  display: block;
+  position: relative;
+  background-color: white;
+  width: 33.333%;
+  margin: 0 15px;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+
+.hp02-campaign-tiles .tile:after {
+    right: 10px;
+    left: auto;
+}
+
+#about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module,
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module {
+    /*width: 100%;*/
+    margin: 2em, auto;
+    color: #333;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+}
+
+
+#about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile span,
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile span {
+    display: inline-block;
+}
+#about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module .headline,
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module .headline {
+    height: 80px;
+    padding: 15px 15px 0;
+    display: inline-block;
+}
+
+#about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module img,
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module img  {
+  background-position: 50% 50%;
+  height: 60px;
+  width: auto;
+  display: inline-block;
+}
+
+#about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module .headline h4,
+#appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module .headline h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+
+.row.tiles {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 991px){
+  #about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles,
+  #appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles {
+      display: block;
+  }
+  #about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles .tile,
+  #appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles .tile {
+      width: auto;
+      margin-bottom: 40px;
+  }
+  #about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles .tile .headline,
+  #appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tiles .tile .headline {
+      height: auto;
+  }
+}
+@media (max-width: 495px){
+  #about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module img,
+  #appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module img {
+    display: none;
+  }
+  #about-CPP-test.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module,
+  #appBaseline.hp02-campaign-tiles div.course-text-content.course-scrollable-content .tile .module {
+      display: none;
+  }
+  ul.description {
+    margin-left: 0;
+  }
+
+}
+
+.certification-section.clearfix.certification-section-highlighted{
+  background-color: #ceeff2;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+.certification-section.clearfix.certification-section-highlighted a {
+  color: #0ab0bf;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.certification-section.clearfix.certification-section-highlighted a:hover {
+  color: #008c99;
+}
+
+#about-CPP-program .p11-feature-pillars .cell img, #about-CPP-program .p11-feature-pillars .cell svg {
+  height: auto;
+  min-width: 75px;
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+@media (max-width: 700px){
+  #about-CPP-program .p11-feature-pillars .cell img {
+    display: none;
+  }
+}
+
+.section-container.tabs section .content h3.course-long-description-header {
+  padding-top: 2em;
+}
+
+.row#CPP-program .section-container.tabs section .content {
+    border: 1px solid transparent;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 4em;
+}
+div#coursework {
+  /*margin-left: 5%;*/
+  margin-right: 5%;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+div#test {
+  margin-left: 5%;
+  /*margin-right: 5%;*/
+  margin-top: 2em;
+  display: inline-block;
+}
+
+div#test a, div#coursework a, div#CPP-test-link a {
+  color: white;
+}
+
+/* APPLICATION BASELINE */
+/*==================================================*/
+
+
+.hp01-screencap .side-text {
+    height: 600px;
+}
+.hp01-screencap .side-text header {
+    max-width: 450px;
+}
+.hp01-screencap .side-text .text-icon {
+    margin-bottom: 20px;
+    max-height: 60px;
+}
+.hp01-screencap .side-text .text-icon img, .hp01-screencap .side-text .text-icon svg {
+    max-height: 60px;
+}
+.hp01-screencap .side-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+b, strong {
+    font-weight: bold;
+}
+.hp01-screencap .side-img {
+    overflow: visible;
+    height: 600px;
+}
+/*@media (min-width: 992px){
+  .col-md-6 {
+    width: 50%;
+  }
+}*/
+.hp01-screencap .side-img .imgPos {
+    display: inline-block;
+    height: 600px;
+    position: absolute;
+    right: 15px;
+}
+.hp01-screencap .side-img.img-right .imgPos .screencap {
+    position: relative;
+    overflow: auto;
+}
+.hp01-screencap .side-img .imgPos .screencap {
+    height: 600px;
+}
+
+#cloudAdoptionAppBaseline img {
+    border: 0;
+}
+#cloudAdoptionAppBaseline.hp01-screencap .side-img.img-right .imgPos {
+    position: relative;
+    right: 0;
+}
+#cloudAdoptionAppBaseline.hp01-screencap {
+  margin-top: 3em;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 992px){
+  .col-md-push-1 {
+      left: 8.33333%;
+  }
+  .col-md-10 {
+      width: 83.33333%;
+  }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+  }
+}
+@media (max-width: 991px){
+  .hp01-screencap .side-text {
+      height: auto;
+  }
+  .hp01-screencap .side-img {
+      height: auto;
+      padding-top: 40px;
+  }
+  .hp01-screencap .side-img .imgPos .screencap {
+      width: 100%;
+      height: auto;
+  }
+}
+
+
+@media (max-width: 767px){
+  .hp01-screencap .side-img .imgPos .screencap {
+      width: auto;
+      height: 335px;
+  }
+  .hp01-screencap .side-img .imgPos {
+      width: auto;
+      height: 335px;
+      position: absolute;
+  }
+  .hp01-screencap .side-img {
+      height: 335px;
+  }
+}
+@media (min-width: 768px){
+  .col-sm-12 {
+      width: 100%;
+  }
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      float: left;
+  }
+}
+@media (min-width: 992px){
+  .col-md-6 {
+      width: 50%;
+  }
+}
+
+#cloudAdoptionAppBaseline.hp01-screencap .valign-outer .valign-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  #cloudAdoptionAppBaseline.hp01-screencap section.section{
+    margin-bottom: 13em;
+  }
+}
+
+section#appBaseline.section {
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 768px){
+  #cloudAdoptionAppBaseline.hp01-screencap h2, .h2-style {
+      font-size: 2.7em;
+  }
+}
+
+@media (min-width: 1200px){
+  #cloudAdoptionAppBaseline.hp01-screencap .container {
+      width: 1275px;
+  }
+}
+
+/*  Cloud Adoption App Baseline Lesson Pages */
+/* =================================================================== */
+
+#appBaseline header {
+    margin-bottom: 40px;
+}
+.intro {
+    margin-bottom: 26px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.555555556;
+}
+@media (min-width: 768px){
+  .intro {
+    font-size: 18px;
+  }
+}
+.list-row .image-col {
+    text-align: center;
+    padding: 0;
+}
+
+@media (min-width: 992px){
+  .col-md-push-0 {
+    left: auto;
+  }
+  .col-md-3 {
+    width: 25%;
+    float: left;
+  }
+  .list-row .image-col svg {
+      max-width: 70%;
+  }
+  .col-md-pull-0 {
+      right: auto;
+  }
+  .col-md-8 {
+      width: 66.66667%;
+      float: left;
+  }
+}
+
+.list-row .image-col svg {
+    display: inline-block;
+    height: auto;
+    max-width: 150%;
+    margin-left: -5%;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.list-row h3 {
+    font-size: 24px;
+}
+h3, .h3 {
+    font-weight: 700;
+    line-height: 1.07em;
+    margin-bottom: 13px;
+    text-transform: none;
+}
+.list-row ul {
+    margin-bottom: 6em;
+}
+.list-row ul li {
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-bottom: 0.8em;
+}
+
+#appBaseline div.container a {
+  color: #0ab0bf;
+}
+
+/* STE changes */
+
+.clearfix:after {
+  clear: both;
+}
+
+#subheader-bar {
+  position: fixed;
+  top: 62px;
+  height: 40px;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  background-color: #eeeef1;
+  border-bottom-color: #d2d2da;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  z-index: 6;
+}
+
+.subheader-height {
+  height: 40px;
+}
+
+.header-contents {
+  float: left;
+  top: -46px;
+  margin-bottom: -50px;
+  z-index: 7;
+}
+
+.header-contents a#nav-mobile-toggle, .subheader-contents a#nav-mobile-toggle {
+  display: none;
+}
+
+.header-contents ul, .subheader-contents ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.header-contents ul li, .subheader-contents ul li {
+  float: left;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, 'Droid Sans', Arial, sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 13px;
+}
+
+.subheader-contents {
+  top: 0px;
+  margin-left: 38px;
+  float: left;
+  display: block;
+}
+
+.top-bar-button {
+  padding: 21px 10px 0px 10px;
+  color: #000000;
+}
+
+.subheader-contents .top-bar-button {
+  padding: 10px 10px 0px 10px;
+}
+
+.top-bar-button.current {
+  background: #eeeeee;
+}
+
+.top-bar-button:hover {
+  background: #f5f5f5;
+  border-bottom-color: #d2d2da;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.top-bar-button.subheader-current {
+  font-weight: bolder;
+}
+
+.top-bar-button.top_nav_current {
+  background-color: #eeeef1;
+}
+
+#header, .header-height {
+  height: 62px;
+}
+
+#header-left.header-left {
+  position: relative;
+}
+
+.catalog-header {
+  margin-top: 102px;
+}
+
+
+/* Mobile breakpoint */
+@media (max-width: 874px) {
+
+  .header-contents {
+      display: none;
+  }
+
+  #header-left {
+    width: 100%;
+    min-width: 170px;
+  }
+  
+  .subheader-contents {
+    margin: 0 0 0 10px;
+    margin-left: 12px;
+  }
+
+  #subnav-logo {
+    display: none;
+  }
+
+}
+
+
+/* 
+===============
+ Footer CSS (from storefront)
+=============== */
+
+.u05-footer .social-icons svg {
+  fill: #999;
+  height: 34px;
+  width: 34px;
+  display: inline-block;
+  transition: fill .3s;
+}
+
+.u05-footer .social-icons svg:hover {
+  fill: #666;
+}
+
+.u05-footer-hide {
+  display: none;
+}
+
+.u05-footer h4 {
+  font-weight: bold;
+}
+
+#footer-top {
+  border-top: 1px solid #d7d7d7;
+}
+
+.footer-col {
+  width: 20%;
+  float: left;
+  padding-right: 20px;
+}
+
+.footer-col ul {
+  margin-bottom: 30px;
+}
+
+.footer-col ul li {
+  margin: 0 0 15px 0;
+  line-height: 1.3;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 13px;
+}
+
+.footer-col ul li a:hover {
+  color: black;
+}
+
+.footer-col h1, .footer-col .h1, .footer-col h2, .footer-col .h2, .footer-col h3, .footer-col .h3, .footer-col h4, .footer-col .h4, .footer-col h5, .footer-col .h5, .footer-col h6, .footer-col .h6 {
+  color: #666666;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .footer-col {
+      width: 100%;
+  }
+  .footer-col h4 {
+      margin-top: 13px;
+      margin-bottom: 2px;
+      clear: both;
+  }
+  .footer-col ul {
+      overflow: hidden;
+  }
+  .footer-col ul li {
+      float: left;
+      margin-right: 15px;
+  }
+  .social-icons {
+      margin-top: 42px;
+  }
+  .footer-bar {
+      padding-bottom: 80px;
+      text-align: center;
+  }
+  .footer-bar .nr-logo {
+      margin-bottom: 15px;
+  }
+}
+
+.list-unstyled, .list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-icons {
+  margin-top: 28px;
+  clear: both;
+}
+
+.social-icons ul li {
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.social-icons ul li a {
+  color: #999999;
+}
+
+.social-icons ul li a i {
+  font-size: 34px;
+}
+
+.social-icons ul li a:hover {
+  color: #333333;
+}
+
+/* this ensures page content will not overlay the footer */
+#skilljar-content:after {
+  height: 0;
+  clear: both;
+}
+
+#subnav-logo{
+  height: 39px;
+  width: 160px;
+  background-size: contain; 
+  background-image: url('IMAGE-URL-GOES-HERE.jpg');
+  display: none; /* remove this after configuring logo  */
+}
+
+/* uncomment this margin-left style after configuring and displaying subnav logo */
+
+/* .subheader-contents {
+  margin-left: 12px;
+}
+*/
+
+</style>
+    
+
+    
+    
+    
+
+<meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style><script type="text/javascript" async="" src="./New Relic Fundamentals Certification Program_files/munchkin(1).js"></script><script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script><script type="text/javascript" src="./New Relic Fundamentals Certification Program_files/ei_track_all_packed.js"></script></head>
+<body class="v1 sj-page-catalog sj-page-series " style="">
+<div id="main-container" class="storefront search-location-left_nav_top   catalog-filters" data-course-series="fundamentals">
+    
+        
+        
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+<header id="header">
+    <div id="header-left" class="header-left">
+
+        
+
+            <a id="left-nav-button" class="burger header-link">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+                
+            </a>
+        
+
+        
+
+            <a href="https://learn.newrelic.com/" class="back-to-catalog animated-button-pair animated-button-pair-stacked header-link">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                <span id="backToCatalogShortText">
+                    Back
+                </span>
+            </a>
+
+        
+
+
+        
+            <a href="https://learn.newrelic.com/" class="header-logo-link">
+        
+
+        
+            <img class="header-center-img initial loading" src="./New Relic Fundamentals Certification Program_files/header-logo.1535069618.png" alt="New Relic University" data-was-processed="true">
+        
+
+        
+            </a>
+        
+
+    </div><div id="upper-nav" class="header-contents header-height">
+      <ul id="upper-nav-list"><li>
+        <a href="https://docs.newrelic.com/">
+          <div class="top-bar-button header-height">Documentation</div>
+        </a>
+      </li><li>
+        <a href="https://discuss.newrelic.com/">
+          <div class="top-bar-button header-height">Explorers Hub</div>
+        </a>
+      </li><li>
+        <a href="https://support.newrelic.com/">
+          <div class="top-bar-button header-height">Support Center</div>
+        </a>
+      </li><li>
+        <a href="https://blog.newrelic.com/">
+          <div class="top-bar-button header-height">Blog</div>
+        </a>
+      </li></ul>
+    </div>
+
+    <div id="header-right">
+
+        
+
+        <div class="headerheight align-vertical">
+
+            
+                <!-- Start Profile / Sign In -->
+                
+                    <a href="https://learn.newrelic.com/series/fundamentals#" data-dropdown="header-drop" class="header-dropdown-button">
+                        <img src="./New Relic Fundamentals Certification Program_files/c04e5674d6167e9e190ea23006138f00.png" width="32" height="32" alt="lhurrell_newrelic_com_s5zp6s" class="initial loaded" data-was-processed="true">
+                    </a>
+                
+                <!-- End Profile / Sign In -->
+            
+
+        </div>
+    </div>
+
+    <!-- Start Header Dropdowns -->
+    
+
+        <!-- Start Profile Dropdown -->
+        <ul id="header-drop" data-dropdown-content="" class="f-dropdown">
+            
+                <li>
+                    <a href="https://learn.newrelic.com/accounts/profile/?next=/series/fundamentals" class="sj-text-my-profile"><span>My Profile</span></a>
+                </li>
+                
+
+            
+
+            <li>
+                <a href="https://learn.newrelic.com/auth/logout?next=%2Fseries%2Ffundamentals" class="signout-link sj-text-sign-out"><span>Sign Out</span></a>
+            </li>
+        </ul>
+        <!-- End Profile Dropdown -->
+
+    
+    <!-- End Header Dropdowns -->
+</header><div id="subheader-bar">
+      <div id="subnav-logo"></div>
+      <div class="subheader-contents">
+        <ul id="nav-list">
+        <li>
+      <a href="https://learn.newrelic.com/">
+        <div class="top-bar-button subheader-height">Home</div>
+      </a>
+    </li><li>
+      <a href="https://learn.newrelic.com/series/fundamentals">
+        <div class="top-bar-button subheader-height subheader-current">Certification</div>
+      </a>
+    </li><li>
+      <a href="https://learn.newrelic.com/series/webcasts/">
+        <div class="top-bar-button subheader-height">Webcasts</div>
+      </a>
+    </li></ul>
+      </div>
+  </div><div class="catalog-header"><div>
+<style>
+  .underline-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .tab-label {
+    font-size: 1.5em;
+  }
+  .justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section.bg-dark.turquoise.c06-platform-modules {
+    /*background-color: #008c99;*/
+    /*background-color: none;*/
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .p05-product-modules .flex .module {
+      flex-basis: 33.3333%;
+      align-content: center;
+      margin-bottom: 30px;
+  }
+  .p05-product-modules .flex .module .content {
+      height: 100%;
+      margin: 15px;
+      border-radius: 6px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  }
+  .p05-product-modules .flex .module .content .icon {
+      padding: 15px 0;
+      border-bottom: 1px solid #dcdcdc;
+  }
+  .p05-product-modules .flex .module .content .text {
+      padding: 30px 30px 17px;
+  }
+  .p05-product-modules .flex {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      align-items: stretch;
+  }
+@media (max-width: 995px){
+      .p05-product-modules .flex {
+          display: block;
+      }
+
+</style>
+</div>
+<section class="section bg-dark turquoise c06-platform-modules" style="background-image: url(&#39;https://everpath-course-content.s3-accelerate.amazonaws.com/instructor%2Felauervose_newrelic_com_jhbbk6%2Fpublic%2Fl1certheader.1570472299915.jpg&#39;);">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<h1 class="text-left">New Relic Certification</h1>
+<p style="text-align: left; font-size: 1.3em;"> <strong>Validate your knowledge and understanding in performance monitoring with the New Relic platform and gain recognition amongst peers and employers. .</p>
+<p style="text-align: left; font-size: 1.3em;">New Relic Certification validates performance monitoring and observability expertise to help individuals and organisations showcase their technical skills and knowledge with the world's first Observability Platform, and help to deliver a more perfect internet. </p>
+<p style="text-align: left; font-size: 1.3em;">Get the skills and knowledge to use New Relic to see what's happening in your application, understand where the problems are, discover opportunities for optimizing your entire application ecosystem, and make sure you never miss an issue that needs attention.</p>
+</div>
+</div>
+</div>
+</section>
+<div class="p05-product-modules">
+<section class="section">
+<div class="container">
+<div class="row">
+<h2 class="text-left"<strong>New Relic Fundamentals Certification</strong></h2>
+<p></p>
+<img src="/Users/lhurrell/Documents/Offline_Read_content/New Relic Fundamentals Certification Program_files/d41586-019-00220-y_16400446.jpg" alt="Italian Trulli" style="float:right;width:350px;height:233px;">
+<p style="text-align: left; font-size: 1.3em;">This certification will mark you out as a <strong>New Relic Certified Practitioner</strong> and demonstrates you have a broad knowledge of New Relic products, as well core skills and knowledge in products such as APM, Infrastructure, and Insights.   There are separate certifications available so you can choose your preferred product to focus on, or collect them all !
+</p>
+<ul>
+<li><p style="text-align: left; font-size: 1.3em;">New Relic Fundamentals Certification - APM </p></li>
+<li><p style="text-align: left; font-size: 1.3em;">New Relic Fundamentals Certification - Infrastructure <i> (coming soon) </i> </p></li>
+<li> <p style="text-align: left; font-size: 1.3em;">New Relic Fundamentals Certification - Insights <i>(coming soon)</i></p></li>
+</ul>
+  <div class="row">
+  </div>
+<p></p>
+<p></p>
+<p></p>
+<h3 class="text-left">Earn your Certification in three steps</h3>
+<p style="text-align: left; font-size: 1.3em;">New Relic Fundamentals Certification Program is made up of three assessments which are taken in sequence. The first one tests knowledge across a range of observability topics and products like APM, Browser, Syntetics, Infrastructure and Insights.  The second one is the largest assessment and is focused on a product (currently APM but there are other options coming soon). The third assessment tests knowledge on setting up and managing alerts in New Relic.
+<p>To help you learn and prepare, there are free online courses for each assessment below. Or use the Practise Tests in each section to test your knowledge.  If you think you are ready you can start the assessment right away!</p></p>
+</div>
+<div class="row">
+<div class="flex col-xs-12">
+<div class="module">
+<div class="content">
+<div class="icon text-center">
+<h2 style="color: #008c99; font-weight: 600;">Assessment 1</h2>
+<!-- <img src="./New Relic Metrics &amp; Traces _ New Relic_files/Database.png"> --></div>
+<div class="text">
+<h4>Performance Monitoring with New Relic</h4>
+<p>This tests broad knowledge of the New Relic Platform and how it works – from what each product monitors and what data they collect, to the ways they work together to giving you a complete picture of your whole architecture.</p>
+<p style="font-size: 0.95em;"><em><strong>Recommended prepration materials: 
+  <ul>
+  <li></strong><a href="https://learn.newrelic.com/series/fundamentals/performance-monitoring-fundamentals">Performance Monitoring Fundamentals Online Coursework & Practise Tests</a> </li>
+  <li>Instructor Led and Virtual Workshops</li>
+  <li><a href="https://learn.newrelic.com/series/webcasts/">Webcasts and Learncasts</a></li>
+</ul>
+</em></p>
+<button id="catalog-reset" class="small-centered" style="float: left;">Take Assessment</button>
+
+</div>
+</div>
+</div>
+<div class="module">
+<div class="content">
+<div class="icon text-center">
+<h2 style="color: #008c99; font-weight: 600;">Assessment 2</h2>
+<!-- <img src="./New Relic Metrics &amp; Traces _ New Relic_files/c17_microservices.png"> --></div>
+<div class="text">
+<h4>New Relic Product Assessment - Select one </h4>
+<p>Choose the product for which you'd like to be certified and select the relevant assessment below. The  product currently available for certification is <strong><a href="https://learn.newrelic.com/series/fundamentals/certification-assessment-new-relic-apm-fundamentals">New Relic APM.</a></strong> But stay tuned - we will have more certifications rolling out soon! </p>
+<p style="font-size: 0.95em;"><em><strong>Recommended prepration materials: 
+  <ul>
+  <li></strong><a href="https://learn.newrelic.com/series/fundamentals/new-relic-apm-fundamentals">New Relic APM Fundamentals Online Coursework & Practise Tests</a> </li>
+  <li>Instructor Led and Virtual Workshops</li>
+  <li><a href="https://learn.newrelic.com/series/webcasts/">Webcasts and Learncasts</a></li>
+</ul>
+</em></p>
+
+<!-- <p>
+                  By the end of this course, you will:
+                  <ol>
+                    <li>Have set up your selected New Relic product with the relevant data reporting to your New Relic account</li>
+                    <li>Be able to use the product dashboards to address the most urgent issues immediately</li>
+                    <li>Have organized your data using product-specific features such as labels</li>
+                    <li>Establish a performance baseline so you can identify what matters most to you and what you might want to monitor, improve, or continue to troubleshoot</li>
+                    <li>Know how to analyze your data to gather deeper insight into your digital business</li>
+                  </ol>
+                </p> --></div>
+</div>
+</div>
+<div class="module">
+<div class="content">
+<div class="icon text-center">
+<h2 style="color: #008c99; font-weight: 600;">Assessment 3</h2>
+<!-- <img src="./New Relic Metrics &amp; Traces _ New Relic_files/c17_microservices.png"> --></div>
+<div class="text">
+<h4>New Relic Alerting</h4>
+<p>This assessment will ensure you know how to create an alert policy to fit your monitoring needs, set critical thresholds, and set up your notification channels so issues get addressed by the right people right away. </p>
+<p style="font-size: 0.95em;"><em><strong>Recommended prepration materials: 
+  <ul>
+  <li></strong><a href="https://learn.newrelic.com/series/fundamentals/new-relic-alerts-fundamentals">New Relic Alerting Fundamentals Online Coursework & Practise Tests</a> </li>
+  <li>Instructor Led and Virtual Workshops</li>
+  <li><a href="https://learn.newrelic.com/series/webcasts/">Webcasts and Learncasts</a></li>
+</ul>
+</em></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></div>
+
+    
+
+    
+        
+    
+
+    <div id="skilljar-content" class="grey-bg-d05"><nav id="catalog-left-nav" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left  cbp-spmenu-open-large">
+            <div class="catalog-left-nav-wrapper">
+                
+    
+        <a href="https://learn.newrelic.com/" class="back-to-catalog animated-button-pair"> <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <span id="backToCatalogLongText" class="sj-text-back-to-catalog">
+                <span>Back to Catalog</span>
+            </span> </a>
+    
+
+    
+        <div class="view-results-wrapper">
+            <a class="view-results">View Results</a>
+        </div>
+
+        
+<div class="search-container" role="search">
+  <div id="catalog-search-box" class="catalog-search-input-group">
+    <input id="catalogSearchInput" type="text" value="" class="catalog-search-input" placeholder="Search" aria-label="Search">
+
+    <span class="catalog-search-input-button-wrapper">
+      <button class="catalog-search-input-button" type="button" title="Search" aria-labelledby="catalogSearchInput">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </span>
+  </div>
+</div>
+
+    
+
+    
+        
+<div id="catalog-filter-menu" class="catalog-filter-menu">
+    <div class="margin-bottom">
+        <button id="catalog-filter-expand-collapse" class="tiny">
+            <span>
+                <i class="fa fa-caret-down"></i>
+                <i class="fa fa-caret-right"></i>
+            </span>
+            All
+        </button>
+        <span class="filter-results" style="visibility: hidden;"><span class="filter-results-count">--</span> results</span>
+        <button id="catalog-reset" class="tiny" style="float: right;">Reset</button>
+    </div>
+    
+        <h3 class="filter-group-title filter-group-expanded">
+            <i class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i> <span class="sj-text-left-nav-categories"><span>Certification Program Overview</span></span>
+        </h3>
+        <hr>
+
+        <div class="tag-labels">
+            
+                
+
+<a id="filter_tag_certification-program-overview_new-relic-fundamentals" class="filter-option-tag filter-option" data-group="certification-program-overview" data-tag="new-relic-fundamentals">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">New Relic Fundamentals <span class="filter-counter">(2)</span></span>
+    
+</a>
+
+            
+        </div>
+    
+        <h3 class="filter-group-title filter-group-expanded">
+            <i class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i> <span class="sj-text-left-nav-categories"><span>Performance Monitoring with New Relic</span></span>
+        </h3>
+        <hr>
+
+        <div class="tag-labels">
+            
+                
+
+<a id="filter_tag_performance-monitoring-with-new-relic_performance-monitoring-fundamentals" class="filter-option-tag filter-option" data-group="performance-monitoring-with-new-relic" data-tag="performance-monitoring-fundamentals">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">Performance Monitoring Fundamentals <span class="filter-counter">(2)</span></span>
+    
+</a>
+
+            
+                
+
+<a id="filter_tag_performance-monitoring-with-new-relic_certification-assessment-1-of-3" class="filter-option-tag filter-option" data-group="performance-monitoring-with-new-relic" data-tag="certification-assessment-1-of-3">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">Certification Assessment 1 of 3 <span class="filter-counter">(1)</span></span>
+    
+</a>
+
+            
+        </div>
+    
+        <h3 class="filter-group-title filter-group-expanded">
+            <i class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i> <span class="sj-text-left-nav-categories"><span>New Relic APM Fundamentals</span></span>
+        </h3>
+        <hr>
+
+        <div class="tag-labels">
+            
+                
+
+<a id="filter_tag_new-relic-apm-fundamentals_new-relic-apm-fundamentals" class="filter-option-tag filter-option" data-group="new-relic-apm-fundamentals" data-tag="new-relic-apm-fundamentals">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">New Relic APM Fundamentals <span class="filter-counter">(3)</span></span>
+    
+</a>
+
+            
+                
+
+<a id="filter_tag_new-relic-apm-fundamentals_new-relic-insights-apm-fundamentals" class="filter-option-tag filter-option" data-group="new-relic-apm-fundamentals" data-tag="new-relic-insights-apm-fundamentals">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">New Relic Insights + APM Fundamentals <span class="filter-counter">(1)</span></span>
+    
+</a>
+
+            
+                
+
+<a id="filter_tag_new-relic-apm-fundamentals_certification-assessment-2-of-3" class="filter-option-tag filter-option" data-group="new-relic-apm-fundamentals" data-tag="certification-assessment-2-of-3">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">Certification Assessment 2 of 3 <span class="filter-counter">(1)</span></span>
+    
+</a>
+
+            
+        </div>
+    
+        <h3 class="filter-group-title filter-group-expanded">
+            <i class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i> <span class="sj-text-left-nav-categories"><span>New Relic Alerts Fundamentals</span></span>
+        </h3>
+        <hr>
+
+        <div class="tag-labels">
+            
+                
+
+<a id="filter_tag_new-relic-alerts-fundamentals_new-relic-alerts-fundamentals" class="filter-option-tag filter-option" data-group="new-relic-alerts-fundamentals" data-tag="new-relic-alerts-fundamentals">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">New Relic Alerts Fundamentals <span class="filter-counter">(2)</span></span>
+    
+</a>
+
+            
+                
+
+<a id="filter_tag_new-relic-alerts-fundamentals_certification-assessment-3-of-3" class="filter-option-tag filter-option" data-group="new-relic-alerts-fundamentals" data-tag="certification-assessment-3-of-3">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">Certification Assessment 3 of 3 <span class="filter-counter">(1)</span></span>
+    
+</a>
+
+            
+        </div>
+    
+        <h3 class="filter-group-title filter-group-expanded">
+            <i class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i> <span class="sj-text-left-nav-categories"><span>Certification Authentication</span></span>
+        </h3>
+        <hr>
+
+        <div class="tag-labels">
+            
+                
+
+<a id="filter_tag_certification-authentication_certification-authentication-new-relic-apm-fundamentals" class="filter-option-tag filter-option" data-group="certification-authentication" data-tag="certification-authentication-new-relic-apm-fundamentals">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name">Certification Authentication: New Relic APM Fundamentals <span class="filter-counter">(1)</span></span>
+    
+</a>
+
+            
+        </div>
+    
+</div>
+
+    
+
+
+            </div>
+        </nav>
+        
+    <div class="top-row list-view ">
+        <div id="catalog-search-info" class="vertical-center-wrapper">
+            <a class="catalog-search-info-header-results vertical-center-wrapper vertical-center-element">
+                <i class="fa fa-times-circle vertical-center-element" aria-hidden="true"></i>
+                <span class="catalog-search-info-header-number-results vertical-center-element sj-text-catalog-search-info-header-number-results"><span>Searching...</span></span>
+            </a>
+
+            <div class="tile-counter-container vertical-center-element">
+                
+
+<a id="filter_type_-c" class="filter-option-type checked filter-option" data-type="-c">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name"><span class="
+            
+                sj-text-filter-courses
+            
+                "><span>Courses</span></span> <span class="filter-counter"></span></span>
+    
+</a>
+
+                
+                    
+
+<a id="filter_type_-l" class="filter-option-type checked filter-option" data-type="-l">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="link-color fa fa-check-circle fa-stack-1x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o fa-stack-1x" aria-hidden="true"></i>
+    </span>
+    
+        <span class="filter-name"><span class="
+            
+                sj-text-filter-lessons
+            
+                "><span>Lessons</span></span> <span class="filter-counter"></span></span>
+    
+</a>
+
+                
+            </div>
+
+            
+        </div>
+
+        <div class="row">
+    <div id="messages" class="small-11 small-centered columns">
+        
+    </div>
+</div>
+
+
+        <div class="catalog-center-width one-col-full">
+            
+        </div>
+        <div id="catalog-content" class="catalog-center-width">
+            <div id="catalog-courses" class="course-listing"><a href="https://learn.newrelic.com/series/fundamentals/new-relic-fundamentals-certification-program-overview" title="New Relic Fundamentals Certification Program Overview" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="new-relic-fundamentals" data-order="0" data-oid="3qeqlkq4b70e" data-coid="2f23962hospjm" data-course="new-relic-fundamentals-certification-program-overview" data-course-status="complete"><div class="sj-course-ribbon-wrapper"><div class="sj-course-ribbon
+                
+                    sj-course-ribbon-complete
+                
+                
+            "><span class="sj-course-ribbon-text">
+                    
+                        Complete
+                    
+                </span></div></div><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/promo-image.1572990285.png" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/2f23962hospjm/promo-image.1572990285.png" alt="New Relic Fundamentals Certification Program Overview" class="loaded" data-was-processed="true"></div><div class="coursebox-text">
+        New Relic Fundamentals Certification Program Overview
+    </div><div class="coursebox-text-description">
+        The New Relic Fundamentals Certification program will help you build the foundation you need to become an expert on the New Relic Observability Platform.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="new-relic-fundamentals"><span>New Relic Fundamentals</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/performance-monitoring-fundamentals" title="Performance Monitoring Fundamentals" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="apm,tutorial,browser,self-serve,new-relic-insights,new-relic-infrastructure,new-relic-fundamentals,performance-monitoring-fundamentals" data-order="1" data-oid="3hsg1s2egm2vq" data-coid="15zs8v6amenpx" data-course="performance-monitoring-fundamentals" data-course-status="registered"><div class="sj-course-ribbon-wrapper"><div class="sj-course-ribbon
+                
+                    sj-course-ribbon-registered
+                
+                
+            "><span class="sj-course-ribbon-text">
+                    
+                        Registered
+                    
+                </span></div></div><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/15zs8v6amenpx/promo-image.1573083963.png" alt="Performance Monitoring Fundamentals"></div><div class="coursebox-text">
+        Performance Monitoring Fundamentals
+    </div><div class="coursebox-text-description">
+        In this course, you’ll learn how you can use the New Relic Digital Intelligence Platform to get end-to-end visibility  into the performance of your websites and apps, the customer experiences they deliver, and their effect on your business.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="apm"><span>APM</span></span><span class="coursebox-tag" data-tag="tutorial"><span>Tutorial</span></span><span class="coursebox-tag" data-tag="browser"><span>Browser</span></span><span class="coursebox-tag" data-tag="self-serve"><span>self-serve</span></span><span class="coursebox-tag" data-tag="new-relic-insights"><span>New Relic Insights</span></span><span class="coursebox-tag" data-tag="new-relic-infrastructure"><span>New Relic Infrastructure</span></span><span class="coursebox-tag" data-tag="new-relic-fundamentals"><span>New Relic Fundamentals</span></span><span class="coursebox-tag" data-tag="performance-monitoring-fundamentals"><span>Performance Monitoring Fundamentals</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/certification-assessment-performance-monitoring-fundamentals" title="Certification Assessment: Performance Monitoring Fundamentals" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="certification-assessment-1-of-3,performance-monitoring-fundamentals" data-order="2" data-oid="3570w89ovj8z5" data-coid="2183qm06yiq4t" data-course="certification-assessment-performance-monitoring-fundamentals" data-course-status="unregistered"><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/2183qm06yiq4t/promo-image.1572990314.png" alt="Certification Assessment: Performance Monitoring Fundamentals"></div><div class="coursebox-text">
+        Certification Assessment: Performance Monitoring Fundamentals
+    </div><div class="coursebox-text-description">
+        This assessment will measure your understanding of the New Relic Platform and what each product monitors; including the data it collects and the ways it works alongside other products to give you a complete picture of our whole architecture.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="certification-assessment-1-of-3"><span>Certification Assessment 1 of 3</span></span><span class="coursebox-tag" data-tag="performance-monitoring-fundamentals"><span>Performance Monitoring Fundamentals</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/new-relic-apm-fundamentals" title="New Relic APM Fundamentals" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="new-relic-apm-fundamentals" data-order="3" data-oid="a5c6wvlwa2kp" data-coid="35e7oulxlmq0r" data-course="new-relic-apm-fundamentals" data-course-status="unregistered"><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/35e7oulxlmq0r/promo-image.1573083877.png" alt="New Relic APM Fundamentals"></div><div class="coursebox-text">
+        New Relic APM Fundamentals
+    </div><div class="coursebox-text-description">
+        In this course, you'll learn how to use New Relic APM to see what's happening in your application, understand where the problems are, discover opportunities for optimizing your entire application ecosystem, and make sure you never miss an issue that needs attention.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="new-relic-apm-fundamentals"><span>New Relic APM Fundamentals</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/new-relic-insights-apm-fundamentals" title="New Relic Insights + APM Fundamentals" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="new-relic-insights-apm-fundamentals,new-relic-apm-fundamentals,abracadabra" data-order="4" data-oid="3sf54m5x7khvl" data-coid="20hf9cerlpn9k" data-course="new-relic-insights-apm-fundamentals" data-course-status="unregistered"><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/20hf9cerlpn9k/promo-image.1573083896.png" alt="New Relic Insights + APM Fundamentals"></div><div class="coursebox-text">
+        New Relic Insights + APM Fundamentals
+    </div><div class="coursebox-text-description">
+        In this course, you'll learn how to create an Insights dashboard in the UI and from a JSON template, add APM charts, and edit your Dashboard. This course culminates in a live virtual training where you'll learn how to analyze your APM data in Insights.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="new-relic-insights-apm-fundamentals"><span>New Relic Insights + APM Fundamentals</span></span><span class="coursebox-tag" data-tag="new-relic-apm-fundamentals"><span>New Relic APM Fundamentals</span></span><span class="coursebox-tag" data-tag="abracadabra"><span>abracadabra</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/certification-assessment-new-relic-apm-fundamentals" title="Certification Assessment: New Relic APM Fundamentals" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="new-relic-apm-fundamentals,certification-assessment-2-of-3" data-order="5" data-oid="12u73yw8no652" data-coid="1fzmqstkuzkci" data-course="certification-assessment-new-relic-apm-fundamentals" data-course-status="unregistered"><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/1fzmqstkuzkci/promo-image.1572991880.png" alt="Certification Assessment: New Relic APM Fundamentals"></div><div class="coursebox-text">
+        Certification Assessment: New Relic APM Fundamentals
+    </div><div class="coursebox-text-description">
+        This assessment will measure your ability to use New Relic APM, including; getting data reporting, organizing your data, troubleshooting and improving application performance, and using default APM data in Insights.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="new-relic-apm-fundamentals"><span>New Relic APM Fundamentals</span></span><span class="coursebox-tag" data-tag="certification-assessment-2-of-3"><span>Certification Assessment 2 of 3</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/new-relic-alerts-fundamentals" title="New Relic Alerts Fundamentals" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="new-relic-alerts-fundamentals" data-order="6" data-oid="3kp4k0lx5ywkd" data-coid="tv4sxbog0i8j" data-course="new-relic-alerts-fundamentals" data-course-status="unregistered"><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/tv4sxbog0i8j/promo-image.1573083858.png" alt="New Relic Alerts Fundamentals"></div><div class="coursebox-text">
+        New Relic Alerts Fundamentals
+    </div><div class="coursebox-text-description">
+        Learn how to use the New Relic platform Alerts tool to monitor performance and know when leading performance indicators spike or drop so you can catch problems before they reach your end user. Enable team members to get the alerts they need faster and achieve lower response times.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="new-relic-alerts-fundamentals"><span>New Relic Alerts Fundamentals</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/certification-assessment-new-relic-alerts" title="Certification Assessment: New Relic Alerts" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="new-relic-alerts-fundamentals,certification-assessment-3-of-3" data-order="7" data-oid="moqruwl7umah" data-coid="2mpaz0r581o73" data-course="certification-assessment-new-relic-alerts" data-course-status="unregistered"><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/2mpaz0r581o73/promo-image.1572993140.png" alt="Certification Assessment: New Relic Alerts"></div><div class="coursebox-text">
+        Certification Assessment: New Relic Alerts
+    </div><div class="coursebox-text-description">
+        This assessment will measure your ability to use New Relic Alerts, including; navigating alert policy structure, create, edit, and configure alert policies and notification channels, and use the incident life cycle dashboard to address critical issues immediately.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="new-relic-alerts-fundamentals"><span>New Relic Alerts Fundamentals</span></span><span class="coursebox-tag" data-tag="certification-assessment-3-of-3"><span>Certification Assessment 3 of 3</span></span></div></a><a href="https://learn.newrelic.com/series/fundamentals/new-relic-apm-fundamentals-certification-authentication" title="New Relic APM Fundamentals Certification Authentication" class="coursebox-container course theme-color-border-hover theme-no-hover" data-type="-c" data-tags="certification-authentication-new-relic-apm-fundamentals" data-order="8" data-oid="ygmp22sm1tkp" data-coid="1kg99x93ihew5" data-course="new-relic-apm-fundamentals-certification-authentication" data-course-status="unregistered"><div class="coursebox-image"><img src="./New Relic Fundamentals Certification Program_files/transparent.d89746888da2.gif" data-src="https://cc.sj-cdn.net/instructor/1h7ahmdd447dx-new-relic/courses/1kg99x93ihew5/promo-image.1572991897.png" alt="New Relic APM Fundamentals Certification Authentication"></div><div class="coursebox-text">
+        New Relic APM Fundamentals Certification Authentication
+    </div><div class="coursebox-text-description">
+        Complete the Certification Authentication: this is the final step to complete in order to earn your New Relic APM Fundamentals Certification.
+    </div><div class="storefront-price"><span>FREE</span></div><div class="course-time"><span></span></div><div class="coursebox-tags"><span class="coursebox-tag" data-tag="certification-authentication-new-relic-apm-fundamentals"><span>Certification Authentication: New Relic APM Fundamentals</span></span></div></a></div>
+        </div>
+        <div id="catalog-stubs">
+            
+
+
+
+
+<a href="https://learn.newrelic.com/series/fundamentals" class="coursebox-container lesson theme-color-border-hover theme-no-hover filtered" data-type="-l" data-tags="" data-oid="">
+    <div class="coursebox-image">
+        <div class="coursebox-image-inner-wrapper">
+            <i class="icon-video"></i>
+        </div>
+    </div>
+
+    <div class="coursebox-text"></div>
+
+    <div class="coursebox-text-description">
+        <span class="sj-text-part-of"><span>Part of: </span></span><span class="coursebox-text-description-target"></span>
+    </div>
+
+    <div class="storefront-price"></div>
+</a>
+
+        </div>
+    </div>
+
+    </div>
+
+    <div id="lpLeftNavBackground"></div>
+
+    
+
+<footer class="u05-footer " id="footer-top">
+  <div class="section">
+    <div class="container">
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              The Platform
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/products">
+                  Digital Intelligence Platform
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/application-monitoring">
+                  New Relic APM
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/partner/aws-monitoring">
+                  New Relic for AWS
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/products/synthetics">
+                  New Relic Synthetics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/products/infrastructure">
+                  New Relic Infrastructure
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/mobile-monitoring">
+                  New Relic Mobile
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/browser-monitoring">
+                  New Relic Browser
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/insights">
+                  New Relic Insights
+                </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              ADDITIONAL FEATURES
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/alerts">
+                  New Relic Alerts
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/plugins">
+                  New Relic Plugins
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/mobility">
+                  New Relic for iOS and Android
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/security">
+                  Enterprise Security
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              WHY NEW RELIC
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/why-new-relic">
+                  Overview
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/customers">
+                  Our Customers
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/why-new-relic/customer-success">
+                  Your Success Plan
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              SUPPORT
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://support.newrelic.com/">
+                  Get Support
+                </a>
+              </li>
+              <li>
+                <a href="https://status.newrelic.com/">
+                  New Relic Status
+                </a>
+              </li>
+              <li>
+                <a href="https://docs.newrelic.com/">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="https://discuss.newrelic.com/">
+                  Community Forum
+                </a>
+              </li>
+              <li>
+                <a href="https://learn.newrelic.com/">
+                  New Relic University
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/start">
+                  Deploying New Relic
+                </a>
+              </li>
+              <li>
+                <a href="https://try.newrelic.com/rs/newrelic/images/PremiumSupport_T&amp;C_SolutionSheet_04.12.18.pdf">
+                  Premium Support
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              THE COMPANY
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/about">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/careers">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/partners">
+                  Partner Program
+                </a>
+              </li>
+              <li>
+                <a href="https://ir.newrelic.com/">
+                  Investor Relations
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/leadership">
+                  Leadership
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/community">
+                  New Relic Community
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/community/events">
+                  Meetup and Events
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/nonprofit">
+                  New Relic Nonprofit Program
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/contact-us">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              Updates
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://blog.newrelic.com/">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/newsroom">
+                  Newsroom
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              Topics
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/devops">
+                  DevOps
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/software-analytics">
+                  Software Analytics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/mobile-app-development">
+                  Mobile Development
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              solutions
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/solutions/digital-customer-experience">
+                  Digital Customer Experience
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/application-development">
+                  Application Development
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/production-monitoring">
+                  Production Monitoring
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/real-time-analytics">
+                  Real-Time Analytics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/mobile-application-management">
+                  Mobile Application Management
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/digital-transformation">
+                  Digital Transformation
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/cloud-adoption">
+                  Cloud Adoption
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              Resources
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/resources/case-studies">
+                  Case Studies
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/videos">
+                  Videos
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/datasheets">
+                  Datasheets
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/white-papers">
+                  White Papers
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/ebooks">
+                  eBooks
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/analyst-reports">
+                  Analyst Reports
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/infographics">
+                  Infographics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/tutorials">
+                  Tutorials
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/webinars">
+                  Webinars
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources">
+                  Latest Resources
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              international
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.newrelic.fr/">
+                  newrelic.fr (French)
+                </a>
+              </li>
+              <li>
+                <a href="https://www.newrelic.de/">
+                  newrelic.de (German)
+                </a>
+              </li>
+              <li>
+                <a href="https://br.newrelic.com/">
+                  br.newrelic.com (Portuguese)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="social-icons">
+        <ul class="list-unstyled text-center">
+          <li>
+            <a href="http://www.facebook.com/NewRelic" target="_blank" title="New Relic on Facebook (new tab)">
+              <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.twitter.com/NewRelic" target="_blank" title="New Relic on Twitter (new tab)">
+              <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1408 610q-56 25-121 34 68-40 93-117-65 38-134 51-61-66-153-66-87 0-148.5 61.5t-61.5 148.5q0 29 5 48-129-7-242-65t-192-155q-29 50-29 106 0 114 91 175-47-1-100-26v2q0 75 50 133.5t123 72.5q-29 8-51 8-13 0-39-4 21 63 74.5 104t121.5 42q-116 90-261 90-26 0-50-3 148 94 322 94 112 0 210-35.5t168-95 120.5-137 75-162 24.5-168.5q0-18-1-27 63-45 105-109zm256-194v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/new-relic-inc-" target="_blank" title="New Relic on LinkedIn (new tab)">
+              <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M365 1414h231v-694h-231v694zm246-908q-1-52-36-86t-93-34-94.5 34-36.5 86q0 51 35.5 85.5t92.5 34.5h1q59 0 95-34.5t36-85.5zm585 908h231v-398q0-154-73-233t-193-79q-136 0-209 117h2v-101h-231q3 66 0 694h231v-388q0-38 7-56 15-35 45-59.5t74-24.5q116 0 116 157v371zm468-998v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/NewRelicInc/featured" target="_blank" title="New Relic on You Tube (new tab)">
+              <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1047 1303v-157q0-50-29-50-17 0-33 16v224q16 16 33 16 29 0 29-49zm184-122h66v-34q0-51-33-51t-33 51v34zm-571-266v70h-80v423h-74v-423h-78v-70h232zm201 126v367h-67v-40q-39 45-76 45-33 0-42-28-6-17-6-54v-290h66v270q0 24 1 26 1 15 15 15 20 0 42-31v-280h67zm252 111v146q0 52-7 73-12 42-53 42-35 0-68-41v36h-67v-493h67v161q32-40 68-40 41 0 53 42 7 21 7 74zm251 129v9q0 29-2 43-3 22-15 40-27 40-80 40-52 0-81-38-21-27-21-86v-129q0-59 20-86 29-38 80-38t78 38q21 29 21 86v76h-133v65q0 51 34 51 24 0 30-26 0-1 .5-7t.5-16.5v-21.5h68zm-451-824v156q0 51-32 51t-32-51v-156q0-52 32-52t32 52zm533 713q0-177-19-260-10-44-43-73.5t-76-34.5q-136-15-412-15-275 0-411 15-44 5-76.5 34.5t-42.5 73.5q-20 87-20 260 0 176 20 260 10 43 42.5 73t75.5 35q137 15 412 15t412-15q43-5 75.5-35t42.5-73q20-84 20-260zm-755-651l90-296h-75l-51 195-53-195h-78q7 23 23 69l24 69q35 103 46 158v201h74v-201zm289 81v-130q0-58-21-87-29-38-78-38-51 0-78 38-21 29-21 87v130q0 58 21 87 27 38 78 38 49 0 78-38 21-27 21-87zm181 120h67v-370h-67v283q-22 31-42 31-15 0-16-16-1-2-1-26v-272h-67v293q0 37 6 55 11 27 43 27 36 0 77-45v40zm503-304v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/newrelic/" target="_blank" title="New Relic on Instagram (new tab)">
+              <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/b/108825274074563270301/108825274074563270301" target="_blank" title="New Relic on Google+ (new tab)">
+              <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1045 905q0-26-6-64h-362v132h217q-3 24-16.5 50t-37.5 53-66.5 44.5-96.5 17.5q-99 0-169-71t-70-171 70-171 169-71q92 0 153 59l104-101q-108-100-257-100-160 0-272 112.5t-112 271.5 112 271.5 272 112.5q165 0 266.5-105t101.5-270zm345 46h109v-110h-109v-110h-110v110h-110v110h110v110h110v-110zm274-535v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer><footer id="ep-footer">
+    
+        <div id="footer-left" class="left">
+            <ul>
+                <li>© 2020</li>
+                
+            </ul>
+        </div>
+
+        <div class="right">
+
+            
+
+            
+                <span id="powered-by">
+                    <a href="http://www.skilljar.com/" target="_blank">
+                        <span class="sj-text-powered-by"><span>powered by</span></span> <img title="Skilljar" src="./New Relic Fundamentals Certification Program_files/powered-by-logo.864fb1f2d98e.png" alt="Skilljar">
+                    </a>
+                </span>
+            
+
+        </div>
+
+    
+</footer>
+
+
+<script>
+    $(document).ready(function () {
+        $('#languagePackSelect').on('change', function () {
+            $('#languagePackSelect').attr('disabled', 'disabled');
+            var languageCode = $('#languagePackSelect option:selected').val();
+            $.cookie('', languageCode, {path: '/'});
+            window.location.reload(true);
+        });
+    });
+</script>
+
+
+
+        
+        
+            <script src="./New Relic Fundamentals Certification Program_files/plugins.min.2b8f26ed67a6.js"></script>
+            <script src="./New Relic Fundamentals Certification Program_files/scripts.min.a8ff25822200.js"></script>
+        
+
+        
+        
+            
+            
+            
+            
+        
+
+        
+        
+            <!--[if IE 8]> <script src="/static/js/respond.min.fbbed3e83e8f.js"></script> <![endif]-->
+        
+
+        
+        
+    <script>
+        $(document).ready(function () {
+            $("#left-nav-button").click(function () {
+                $("body, .cbp-spmenu-left").toggleClass("cbp-spmenu-open");
+            });
+            $('#lpLeftNavBackground').click(function() {
+                $("body, .cbp-spmenu-left").removeClass("cbp-spmenu-open");
+            });
+        });
+    </script>
+
+        
+
+    <script src="./New Relic Fundamentals Certification Program_files/algoliasearch.min.js"></script>
+
+    <script>
+        var client = algoliasearch('OS16XJPWDD', 'OTRkYTVhMGJhNGJhYTlkYTBkYTY2NWQ5YWVlNjBjZDY3N2ZiNzU2ZjZkZGM4ZGQ5ZmNjZGMxNDkyMDExYzk4Zm51bWVyaWNGaWx0ZXJzPW9pZCUzRDE5OTglMkMlMjhwY2lkJTNENDYwNDIlMkNwY2lkJTNENDYwNDQlMkNwY2lkJTNENDYwNDMlMkNwY2lkJTNENDYwNDUlMkNwY2lkJTNENDYwNDYlMkNwY2lkJTNENDYwNDElMkNwY2lkJTNENDYwNDglMkNwY2lkJTNENDYwNDclMkNwY2lkJTNENDYwNDklMkNsY2lkJTNENDE2MjUlMkNsY2lkJTNENDI5MTAlMkNsY2lkJTNENDE2MzAlMkNsY2lkJTNENDE2NDElMkNsY2lkJTNENDI3NDklMkNsY2lkJTNENDE2ODIlMkNsY2lkJTNENDI5MjMlMkNsY2lkJTNENDE2ODUlMkNsY2lkJTNENDI5MjclMjk\u003D');
+        var index = client.initIndex('catalog');
+    </script>
+
+    <script src="./New Relic Fundamentals Certification Program_files/catalog.min.3f53669e2641.js"></script>
+
+    
+        <script>
+            var imageLazyLoader;
+
+            function searchCompleteCallback() {
+                setTimeout(function () {
+                    imageLazyLoader.update();
+                }, 100);
+            }
+
+            $(document).ready(function () {
+                imageLazyLoader = new LazyLoad(); // http://www.andreaverlicchi.eu/lazyload/
+            });
+        </script>
+    
+
+    <script>
+        $(document).ready(function () {
+            search = CatalogSearch(
+                true,
+                true,
+                false,
+                '',
+                searchCompleteCallback
+            );
+
+            
+            $('.filter-option-type').on('click', search.toggleFilterType);
+            $('#catalog-filter-menu .filter-option-tag').click(search.toggleFilterTag);
+            $(window).bind('hashchange', search.onHashChange);
+
+            $('.catalog-search-input-button').on('click', search.startSearch);
+            $('.catalog-search-input').on('change paste keyup', function (event) {
+                $('.catalog-search-input').not(this).val($(this).val());
+                search.startSearch(event, $(this).val());
+            });
+
+            
+            $('h3.filter-group-title').click(function () {
+                if ($(this).hasClass('filter-group-expanded')) {
+                    $(this).removeClass('filter-group-expanded').addClass('filter-group-collapsed');
+                } else {
+                    $(this).removeClass('filter-group-collapsed').addClass('filter-group-expanded');
+                }
+            });
+
+            
+            if (document.getElementById('catalog-filter-expand-collapse')) {
+                document.getElementById('catalog-filter-expand-collapse').addEventListener('click', function (e) {
+                    this.classList.toggle('collapsed');
+
+                    if ($('.filter-group-title.filter-group-collapsed').length) {
+                        $('.filter-group-title').removeClass('filter-group-collapsed').addClass('filter-group-expanded');
+                    } else {
+                        $('.filter-group-title').removeClass('filter-group-expanded').addClass('filter-group-collapsed');
+                    }
+                });
+            }
+
+            
+            $('.catalog-search-info-header-results').on('click', function () {
+                $("body, .cbp-spmenu-left").removeClass("cbp-spmenu-open");
+            });
+
+            
+            $('.catalog-search-reset, button#catalog-reset').click(function () {
+                search.clearSearch();
+                search.clearFilterTagsAndUpdate();
+            });
+            $('.view-results').click(function () {
+                $("body, .cbp-spmenu-left").removeClass("cbp-spmenu-open");
+            });
+
+
+            
+            
+            
+            var mq = window.matchMedia('(max-width: 768px)');
+            if (mq.addListener) {
+                
+
+                function mqTransition(changed) {
+                    if (changed.matches) {
+                        $("#main-container").addClass("with-transition");
+                        $("#catalog-left-nav").addClass("with-transition");
+                    }
+                    else {
+                        $("#main-container").removeClass("with-transition");
+                        $("#catalog-left-nav").removeClass("with-transition");
+                    }
+                }
+
+                mqTransition(mq);
+                mq.addListener(mqTransition);
+            }
+        });
+    </script>
+
+
+        
+        
+            <script>
+                $(document).foundation(function () {
+                    // Activates the modified custom selects on forms
+                    // Just need to add the class awesome to the form to make it work
+                    wrapSelects = function () {
+                        $('form.awesome select:not(.is-wrapped)')
+                                .addClass('is-wrapped')
+                                .wrap('<div class="custom dropdown select" />')
+                                .after('<span class="selector"></span>');
+                    };
+
+                    wrapSelects();
+                });
+            </script>
+        
+
+        
+            
+                <script>
+                    $(document).ready(function () {
+                        $('[data-track-click]').click(function (event) {
+                            var ga_event_data = $(event.currentTarget).attr('data-track-click').split(',');
+                            ga('skilljarTracker.send', 'event', ga_event_data[0], ga_event_data[1], ga_event_data[2], ga_event_data[3]);
+                        });
+                    });
+                </script>
+            
+        
+
+        
+            
+        
+
+    
+
+    
+
+    
+    
+    
+        <script>
+
+
+$(document).ready(function () {
+
+
+
+  //Controls the upper navigation menu items. Displayed left-to-right in the order below:
+  var upperNavItems = [
+    { text: 'Documentation', url: 'https://docs.newrelic.com/' },
+    { text: 'Explorers Hub', url: 'https://discuss.newrelic.com/' },
+    { text: 'Support Center', url: 'https://support.newrelic.com/' },
+    { text: 'Blog', url: 'https://blog.newrelic.com/' }
+  ]
+
+
+  //Controls the sub navigation menu items. Displayed left-to-right in the order below:
+  var subNavItems = [
+      { text: 'Home', url: 'https://learn.newrelic.com/' },
+      { text: 'Certification', url: 'https://learn.newrelic.com/series/fundamentals' },
+      { text: 'Webcasts', url: 'https://learn.newrelic.com/series/webcasts/' }
+    ]
+
+  //Create and inject upper navigation menu next to logo
+  var upperNav = $(`
+    <div id="upper-nav" class="header-contents header-height">
+      <ul id="upper-nav-list"></ul>
+    </div>`);
+  $('#header-left').after(upperNav);
+
+  var upperNavList = $('#upper-nav-list');
+
+  upperNavItems.forEach(function (item) {
+    var listItem = $(`
+      <li>
+        <a href="${item.url}">
+          <div class="top-bar-button header-height">${item.text}</div>
+        </a>
+      </li>`)
+    upperNavList.append(listItem)
+  })
+
+  //Create and inject sub navigation menu
+  var subNav = $(`<div id="subheader-bar">
+      <div id="subnav-logo"></div>
+      <div class="subheader-contents">
+        <ul id="nav-list">
+        </ul>
+      </div>
+  </div>`)
+
+  $('#header').after(subNav);
+
+  var navList = $("#nav-list");
+
+  subNavItems.forEach(function (item) {
+    var classList = 'top-bar-button subheader-height'
+
+    //Bold the menu item if it's the page we're on
+    if (window.location.href == item.url) {
+          classList += ' subheader-current'
+        }
+
+    var listItem = $(`
+    <li>
+      <a href="${item.url}">
+        <div class="${classList}">${item.text}</div>
+      </a>
+    </li>`)
+
+    navList.append(listItem)
+  })
+
+  // Insert custom 404 Not Found error message instead of the standard one
+  $(document).ready(function(){
+    $('.sj-text-page-not-found-explanation span').html('<div class="certification-copy-section clearfix"><br><h2>We couldn&apos;t find the page you requested.</h2></div><div class="certification-copy-section" width="50%"><p><b>Our site recently changed!</b></p><p>If you got to this page with a bookmark or link, you can still find all the same great content. It has just moved to a new location. To see all the exciting changes we&apos;ve made to New Relic University, please visit this site&apos;s <a href="https://learn.newrelic.com/">home page</a>.</p><br><p>Looking for live and recorded <a href="https://learn.newrelic.com/series/webcasts/">webcasts</a>? They&apos;re still here. Just click the link in the banner above!</p></div><div class="p11-feature-pillars"><section class="section bg-gray"><div class="container cert-icon-list"><div class="row"><div class="col-sm-12 col-md-4">	<div class="cell">				<div class="text-wrap" align="left">		If you were trying to get to the &quot;<b>Intro to APM</b>&quot; Course or a specific tutorial in that course, you can find all the APM related courses on the <a href="https://learn.newrelic.com/series/certified-performance-pro/">Certified Performance Pro</a> certification page. You can also go directly to the new APM courses: 		<p>&nbsp;</p>		<li><a href="https://learn.newrelic.com/get-started-with-apm">Get Started with APM</a>		<li><a href="https://learn.newrelic.com/navigating-apm">Navigating APM</a>		<li><a href="https://learn.newrelic.com/monitoring-performance-with-apm">Performance Monitoring with New Relic</a>		<li><a href="https://learn.newrelic.com/custom-data-with-apm">Custom Data with APM</a>		</div>	</div></div><div class="col-sm-12 col-md-4">	<div class="cell">		<div class="text-wrap" align="left">		If you were trying to get to the &quot;Intro to Infrastructure&quot; Course or a specific tutorial in that course, you can find it by going to the new course, <a href="https://learn.newrelic.com/getting-started-with-infrastructure">Getting Started with Infrastructure</a>. You can also find a tutorial about Health Maps in the course <a href="https://learn.newrelic.com/monitoring-performance-with-apm">Performance Monitoring with New Relic</a>.		</div>	</div></div><div class="col-sm-12 col-md-4">	<div class="cell">				<div class="text-wrap" align="left">		If you were trying to get to the &quot;Intro to Insights&quot; Course or a specific tutorial in that course, you can find it by going to the new Insights courses: 		<p>&nbsp;</p>		<li><a href="https://learn.newrelic.com/getting-started-with-insights">Getting Started with Insights</a>		<li><a href="https://learn.newrelic.com/writing-nrql-queries">Writing NRQL Queries</a>		<li><a href="https://learn.newrelic.com/dashboards-and-data-apps">Dashboards and Data Apps</a>		<li><a href="https://learn.newrelic.com/custom-data-with-insights">Custom Data with Insights</a>		<br>		</div>	</div></div></div></div></section></div><div class="certification-copy-section clearfix">		<p>If you are trying to get to a <b>Private Group course</b>, you need to make sure you are logged in using the same email address you were invited to the course with. </p>		<p>If you have any further trouble accessing the course your were invited to, email us at <a href="mailto:reply.nru@newrelic.com">reply.nru@newrelic.com</a>.</p></div><br><br><br><br>').show();
+});
+
+  // Add catalog nav menu to catalog list
+  $("#skilljar-content").prepend($("#catalog-left-nav"));
+
+  // Insert footer
+  $(getFooterElement()).insertBefore($("#ep-footer"));
+
+  // for course series pages
+  $(".catalog-header").insertAfter($("#subheader-bar"));
+
+  // auto-collapse filter groups for smaller viewports
+  if ($(window).width() < 875) {
+    $('.filter-group-title').each(function () {
+      $(this).addClass('filter-group-collapsed').removeClass('filter-group-expanded');
+    })
+  }
+
+  // This script is intended to scroll people to the catalog section of the page so we can give people specific URLs with filters & tags selected and they will be taken directly to a view with the desired course list sort
+  if (location.hash && location.hash.length) {
+    setTimeout(function () {
+      document.querySelector('#catalog-search-box').scrollIntoView({
+        behavior: 'smooth', inline: 'end'
+      });
+    }, 300)
+  }
+
+});
+
+function getFooterElement() {
+  return $(`<footer class="u05-footer " id="footer-top">
+  <div class="section">
+    <div class="container">
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              The Platform
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/products">
+                  Digital Intelligence Platform
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/application-monitoring">
+                  New Relic APM
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/partner/aws-monitoring">
+                  New Relic for AWS
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/products/synthetics">
+                  New Relic Synthetics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/products/infrastructure">
+                  New Relic Infrastructure
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/mobile-monitoring">
+                  New Relic Mobile
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/browser-monitoring">
+                  New Relic Browser
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/insights">
+                  New Relic Insights
+                </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              ADDITIONAL FEATURES
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/alerts">
+                  New Relic Alerts
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/plugins">
+                  New Relic Plugins
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/mobility">
+                  New Relic for iOS and Android
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/security">
+                  Enterprise Security
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              WHY NEW RELIC
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/why-new-relic">
+                  Overview
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/customers">
+                  Our Customers
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/why-new-relic/customer-success">
+                  Your Success Plan
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              SUPPORT
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://support.newrelic.com/">
+                  Get Support
+                </a>
+              </li>
+              <li>
+                <a href="https://status.newrelic.com/">
+                  New Relic Status
+                </a>
+              </li>
+              <li>
+                <a href="https://docs.newrelic.com/">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="https://discuss.newrelic.com/">
+                  Community Forum
+                </a>
+              </li>
+              <li>
+                <a href="https://learn.newrelic.com/">
+                  New Relic University
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/start">
+                  Deploying New Relic
+                </a>
+              </li>
+              <li>
+                <a href="https://try.newrelic.com/rs/newrelic/images/PremiumSupport_T&C_SolutionSheet_04.12.18.pdf">
+                  Premium Support
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              THE COMPANY
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/about">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/careers">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/partners">
+                  Partner Program
+                </a>
+              </li>
+              <li>
+                <a href="https://ir.newrelic.com/">
+                  Investor Relations
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/leadership">
+                  Leadership
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/community">
+                  New Relic Community
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/community/events">
+                  Meetup and Events
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/nonprofit">
+                  New Relic Nonprofit Program
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/contact-us">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              Updates
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://blog.newrelic.com/">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/about/newsroom">
+                  Newsroom
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              Topics
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/devops">
+                  DevOps
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/software-analytics">
+                  Software Analytics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/mobile-app-development">
+                  Mobile Development
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              solutions
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/solutions/digital-customer-experience">
+                  Digital Customer Experience
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/application-development">
+                  Application Development
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/production-monitoring">
+                  Production Monitoring
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/real-time-analytics">
+                  Real-Time Analytics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/mobile-application-management">
+                  Mobile Application Management
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/digital-transformation">
+                  Digital Transformation
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/solutions/cloud-adoption">
+                  Cloud Adoption
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              Resources
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://newrelic.com/resources/case-studies">
+                  Case Studies
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/videos">
+                  Videos
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/datasheets">
+                  Datasheets
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/white-papers">
+                  White Papers
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/ebooks">
+                  eBooks
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/analyst-reports">
+                  Analyst Reports
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/infographics">
+                  Infographics
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/tutorials">
+                  Tutorials
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources/webinars">
+                  Webinars
+                </a>
+              </li>
+              <li>
+                <a href="https://newrelic.com/resources">
+                  Latest Resources
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u04a-footer-links">
+          <div>
+            <h4>
+              international
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.newrelic.fr/">
+                  newrelic.fr (French)
+                </a>
+              </li>
+              <li>
+                <a href="https://www.newrelic.de/">
+                  newrelic.de (German)
+                </a>
+              </li>
+              <li>
+                <a href="https://br.newrelic.com/">
+                  br.newrelic.com (Portuguese)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="social-icons">
+        <ul class="list-unstyled text-center">
+          <li>
+            <a href="http://www.facebook.com/NewRelic" target="_blank" title="New Relic on Facebook (new tab)">
+              <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.twitter.com/NewRelic" target="_blank" title="New Relic on Twitter (new tab)">
+              <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1408 610q-56 25-121 34 68-40 93-117-65 38-134 51-61-66-153-66-87 0-148.5 61.5t-61.5 148.5q0 29 5 48-129-7-242-65t-192-155q-29 50-29 106 0 114 91 175-47-1-100-26v2q0 75 50 133.5t123 72.5q-29 8-51 8-13 0-39-4 21 63 74.5 104t121.5 42q-116 90-261 90-26 0-50-3 148 94 322 94 112 0 210-35.5t168-95 120.5-137 75-162 24.5-168.5q0-18-1-27 63-45 105-109zm256-194v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/new-relic-inc-" target="_blank" title="New Relic on LinkedIn (new tab)">
+              <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M365 1414h231v-694h-231v694zm246-908q-1-52-36-86t-93-34-94.5 34-36.5 86q0 51 35.5 85.5t92.5 34.5h1q59 0 95-34.5t36-85.5zm585 908h231v-398q0-154-73-233t-193-79q-136 0-209 117h2v-101h-231q3 66 0 694h231v-388q0-38 7-56 15-35 45-59.5t74-24.5q116 0 116 157v371zm468-998v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/NewRelicInc/featured" target="_blank" title="New Relic on You Tube (new tab)">
+              <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1047 1303v-157q0-50-29-50-17 0-33 16v224q16 16 33 16 29 0 29-49zm184-122h66v-34q0-51-33-51t-33 51v34zm-571-266v70h-80v423h-74v-423h-78v-70h232zm201 126v367h-67v-40q-39 45-76 45-33 0-42-28-6-17-6-54v-290h66v270q0 24 1 26 1 15 15 15 20 0 42-31v-280h67zm252 111v146q0 52-7 73-12 42-53 42-35 0-68-41v36h-67v-493h67v161q32-40 68-40 41 0 53 42 7 21 7 74zm251 129v9q0 29-2 43-3 22-15 40-27 40-80 40-52 0-81-38-21-27-21-86v-129q0-59 20-86 29-38 80-38t78 38q21 29 21 86v76h-133v65q0 51 34 51 24 0 30-26 0-1 .5-7t.5-16.5v-21.5h68zm-451-824v156q0 51-32 51t-32-51v-156q0-52 32-52t32 52zm533 713q0-177-19-260-10-44-43-73.5t-76-34.5q-136-15-412-15-275 0-411 15-44 5-76.5 34.5t-42.5 73.5q-20 87-20 260 0 176 20 260 10 43 42.5 73t75.5 35q137 15 412 15t412-15q43-5 75.5-35t42.5-73q20-84 20-260zm-755-651l90-296h-75l-51 195-53-195h-78q7 23 23 69l24 69q35 103 46 158v201h74v-201zm289 81v-130q0-58-21-87-29-38-78-38-51 0-78 38-21 29-21 87v130q0 58 21 87 27 38 78 38 49 0 78-38 21-27 21-87zm181 120h67v-370h-67v283q-22 31-42 31-15 0-16-16-1-2-1-26v-272h-67v293q0 37 6 55 11 27 43 27 36 0 77-45v40zm503-304v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/newrelic/" target="_blank" title="New Relic on Instagram (new tab)">
+              <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/b/108825274074563270301/108825274074563270301" target="_blank" title="New Relic on Google+ (new tab)">
+              <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1045 905q0-26-6-64h-362v132h217q-3 24-16.5 50t-37.5 53-66.5 44.5-96.5 17.5q-99 0-169-71t-70-171 70-171 169-71q92 0 153 59l104-101q-108-100-257-100-160 0-272 112.5t-112 271.5 112 271.5 272 112.5q165 0 266.5-105t101.5-270zm345 46h109v-110h-109v-110h-110v110h-110v110h110v110h110v-110zm274-535v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>`)
+}
+
+window.intercomSettings = {
+  app_id: "cyym0u3i"
+};
+
+(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/cyym0u3i'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()
+
+</script>
+        
+    
+
+    
+        <div id="course_completion_code">
+            
+        </div>
+    
+</div>
+
+
+
+<script type="text/javascript" id="" charset="utf-8">var _eiq=_eiq||[],_engagio_settings={accountId:"376fcc4a158b15f77e20bc4b20c87d4adb59a6a8"};(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://":"http://")+"web-analytics.engagio.com/js/ei.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script><script type="text/javascript" id="">(function(){function b(){!1===c&&(c=!0,Munchkin.init("412-MZS-894"))}var c=!1,a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="//munchkin.marketo.net/munchkin.js";a.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||b()};a.onload=b;document.getElementsByTagName("head")[0].appendChild(a)})();</script><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important;" aria-hidden="true" tabindex="-1" title="Intercom" src="./New Relic Fundamentals Certification Program_files/saved_resource.html"></iframe><div id="intercom-css-container"><style data-emotion="intercom-global"></style></div><div id="intercom-container" class="intercom-namespace"><style>html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body,html.intercom-modal-open,#intercom-container-body{overflow:hidden !important;}html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body{position:static !important;}html.intercom-mobile-messenger-active > body{height:0 !important;margin:0 !important;}iframe#intercom-frame{position:absolute !important;opacity:0 !important;width:1px !important;height:1px !important;top:0 !important;left:0 !important;border:none !important;display:block !important;z-index:-1 !important;}</style><div class="intercom-app" aria-live="polite"><div id="intercom-modal-container"></div></div></div></body></html>
